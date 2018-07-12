@@ -55,3 +55,77 @@ Cost efficient: speed, energy, hardware
 ## Read more
 https://en.wikipedia.org/wiki/Proof-of-stake
 
+
+# Hybrid Proof of Work (HPoW)
+ HPoW still uses PoW but modifies it so it isn’t profitable and, as a result, creates an entire cryptocurrency network that can run on energy efficient, easy to set-up, low-cost computers or cloud services. HPoW removes the profit incentive for miners because the mining reward is so low. In fact, mining farms would actually lose money if they tried to mine Lynx, meaning they will leave Lynx to the individuals who want to solve the sustainability problem. This takes control away from mining farms and pools and puts it squarely into the hands of individuals (solo miners) who want to build upon and use Lynx. HPoW supports network maintenance by incentivizing and empowering those who want to use Lynx. With every new solo miner that connects, the network becomes more secure by reducing the risks associated with a centralized and hierarchical cryptocurrency network. This security is achieved through redundancy: the more individual nodes on the network, the stronger the network becomes. If an individual node or miner fails, or if an entire region of nodes fail due to widespread power outages or war, the network is still secure because mining rigs are plentiful.
+
+Taken together, the three business rules result in “Hybrid Proof of Work” (HPoW)
+1. A single miner can’t win a block more than once every 30 minutes.
+2. The miner’s reward address balance must be greater than or equal to a required
+fluctuating minimum amount of Lynx to win a block.
+3. By using random selection, the fastest miners are not always guaranteed to win the block reward.
+
+## Used in
+Lynx https://getlynx.io/
+
+## Pros
+mining unprofitable
+
+## Cons
+
+## Read more
+https://consensus.tokens-economy.com/glossary.html#index
+
+# Delegated proof-of-stake (DPoS)
+ DPoS is a twist on Proof of Stake consensus that relies upon a group of delegates to validate blocks on behalf of all nodes in the network. Works using witnesses, who generate blocks. Witnesses are elected by stakeholders at a rate of one vote per share per witness. However, with PoA, the appointment of an authority is automatic, meaning that there can be no bias or uneven process caused by unequal stakes. Coin age is irrelevant. All coins that are mature will add the same staking weight (usually 1 in the wallet hover display). Results in stable, consistent interest only for active wallets and only with small inputs. Downtime and large inputs will significantly impact your interest with DPOS. On the plus side, no age means that moving coins is less costly because lost coin age is not detrimental.
+
+With DPoS blockchain consensus protocols, coin holders use their coin balances to elect delegates, called witnesses. These witnesses have the opportunity to stake blocks of new transactions and add them to the blockchain. Voting power is determined by cyberwealth. Those who have more coins or tokens will have a greater impact on the network that those with fewer.
+
+## Used in
+Steemit https://steemit.com/@zanewithspoon
+EOS https://eos.io/
+BitShares https://bitshares.org/
+
+## Pros
+* Cheap transactions
+* scalable
+* energy efficient
+* Coin age is irrelevant: no age means that moving coins is less costly because lost coin age is not detrimental.
+* All coins that are mature will add the same staking weight (usually 1 in the wallet hover display).
+* Results in stable, consistent interest only for active wallets and only with small inputs.
+* Downtime and large inputs will significantly impact your interest with DPOS.
+## Cons
+* Partially centralized
+
+## Read more
+* Wikipedia https://en.wikipedia.org/wiki/Delegated_proof-of-stake
+
+# Leased Proof-of-Stake (LPoS)
+Your chances to find a new block only depend on how many Token you have ( i.e. your stake).
+
+## Used in
+* NXT
+* Waves
+
+## Pros
+you don’t need a lot of computing power to forge a new block
+
+## Read more
+Medium1 https://medium.com/@wavesgo/explaining-waves-lpos-3a9f838cf167
+Medium2 https://blog.wavesplatform.com/waves-launches-balance-leasing-in-lite-client-14db9eac0377
+
+# Proof-of-Stake-Time (PoST)
+A time-accepted periodic proof factor in a nonlinear distributed consensus. Stake-Time as “The coin-age of a transaction or set of transactions in which the Stake-Time is the product of the total coins (C) and the fraction (f) of acceptable age(a)
+
+introducing a nonlinear proof function that defines a fraction of time active and idle, at a given block. Idle-time is defined as the fraction of age that no longer supports the distribution of consensus and instead begins to degrade it. This quantified idle-time is unique to each stake, as It decreases the probability to meet the proof and impacts the fraction of earnable matured interest via consensus. Where the fraction of accepted age (f) is equal to the squared cosine of the product of π and that transactions consensus power (p), defined as the fraction coin-age (g) of the average network wide stake-time weight (n) over 60 blocks (1 hour) [figure 1]. If the consensus-power (p) is greater than 0.45 all age is lost and the Time-active fraction is equal to the minimum stake time (m) of 8 hours
+
+## Used in
+* PostCoin
+* Vericoin
+
+## Pros
+* maintains the efficiencies of Proof-of-Stake
+
+## Read more
+https://vericoin.info/
+Whitepaper
