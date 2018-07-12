@@ -97,7 +97,12 @@ Bitcoin, which made the blockchain technology popular, developed the so-called P
 Reducing block rewards
 
 ### Read more
-https://en.wikipedia.org/wiki/Proof-of-work_system
+- https://en.wikipedia.org/wiki/Proof-of-work_system
+- "Proof-of-work": [Pricing via processing or combatting junk mail](https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf). Dwork C, Naor M. '92.
+- [Hashcash - A Denial of Service Counter-Measure](http://www.hashcash.org/papers/hashcash.pdf). Back A. '02.
+- [Cuckoo Cycle: a memory bound graph-theoretic proof-of-work](http://fc15.ifca.ai/preproceedings/bitcoin/paper_12.pdf). Tromp J. FC '15.
+- [PieceWork: Generalized Outsourcing Control for Proofs of Work](http://fc17.ifca.ai/bitcoin/papers/bitcoin17-final24.pdf). Daian P, Eyal I, Juels A, Sirer EG. FC '17.
+- [Permacoin: Repurposing bitcoin work for data preservation](http://ieeexplore.ieee.org/iel7/6954656/6956545/06956582.pdf). Miller A, Juels A, Shi E, Parno B, Katz J. Permacoin. S&P '14.
 
 # Proof of stake (PoS)
 Proof of stake (PoS) is a type of algorithm by which a cryptocurrency blockchain network aims to achieve distributed consensus. Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
@@ -305,7 +310,8 @@ A variation of Proof-of-stake(with rigorous security guarantees) used by Cardano
 * Cardano
 
 ## Read more
-* Whitepaper https://eprint.iacr.org/2016/889.pdf
+- Whitepaper https://eprint.iacr.org/2016/889.pdf
+- [Ouroboros: A provably secure proof-of-stake blockchain protocol](https://pdfs.semanticscholar.org/1c14/549f7ba7d6a000d79a7d12255eb11113e6fa.pdf). Kiayias A, Russell A, David B, Oliynykov R. '16.
 
 # Proof of Retrievability (POR)
 A proof of Retrievability (POR) is a compact proof by a file system (prover) to a client (verifier) that a target file F is intact, in the sense that the client can fully recover it. As PORs incur lower communication complexity than transmission of F itself, they are an attractive building block for high-assurance remote storage systems. It can be really useful as a consensus algorithm for Cloud computing systems.
@@ -403,6 +409,9 @@ Proof-of-Weight is a broad classification of consensus algorithms based around t
 * Customizable; scalable
 ## Cons
 * Incentivization can be a challenge
+## Read more
+- [ALGORAND: The Efficient and Democratic Ledger](https://arxiv.org/pdf/1607.01341.pdf). Micali S. '16.
+
 
 # Proof of Zero (PoZ)
 PoZ is an evolution of actual PoS, with the main difference that is capable of Zero-Knowledge transactions. PoZ gives every users the chance of earning interest over their owned coins, just as standard Proof of Stake. Last but not least PoZ is far away more cheap than PoW, in term of power & processor consumption. Zcrypt is an anoymouc cryptocurrency that uses zero knowledge proofs. It uses a Proof of Work/Proof of Stake protocol with a new algorithm, LyraZ.
