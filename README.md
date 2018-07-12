@@ -5,7 +5,11 @@ This is my attempt to list all possible blockchain consensus out there, i welcom
 
 ## Blockchain Consensus?
 At the core of the Blockchain disruption are consensus algorithm:
-Consensus algorithms enable network participants to agree on the contents of a blockchain in a distributed and trust-less manner.
+
+> Consensus algorithms enable network participants to agree on the contents of a blockchain in a distributed and trust-less manner.
+
+> “Consensus decision-making is a group decision-making process in which group members develop, and agree to support a decision in the best interest of the whole. Consensus may be defined professionally as an acceptable resolution, one that can be supported, even if not the “favourite” of each individual. Consensus is defined by Merriam-Webster as, first, general agreement, and second, group solidarity of belief or sentiment.” Wikipedia
+
 
 And the consensus algorithm plays a crucial role in maintaining the safety and efficiency of blockchain. Using the right algorithm may bring a significant increase to the performance of blockchain application.
 
@@ -109,12 +113,17 @@ Proof of stake (PoS) is a type of algorithm by which a cryptocurrency blockchain
 
 Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
 
+1. The validators will have to lock up some of their coins as stake.
+2. After that, they will start validating the blocks. Meaning, when they discover a block which they think can be added to the chain, they will validate it by placing a bet on it.
+3. If the block gets appended, then the validators will get a reward proportional to their bets.
+
 ## Used in
 * Ada
 * EOS.IO
 * Gridcoin
 * Nxt
 * Waves
+* In Future with Casper in Ethereum
 
 ## Pros
 Cost efficient: speed, energy, hardware
