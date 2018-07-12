@@ -30,3 +30,28 @@ Bitcoin, which made the blockchain technology popular, developed the so-called P
 * Energy intensive
 * vulnerable to 51% attack
 Reducing block rewards
+
+### Read more
+https://en.wikipedia.org/wiki/Proof-of-work_system
+
+# Proof of stake (PoS)
+Proof of stake (PoS) is a type of algorithm by which a cryptocurrency blockchain network aims to achieve distributed consensus. Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
+
+Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
+
+## Used in
+* Ada
+* EOS.IO
+* Gridcoin
+* Nxt
+* Waves
+
+## Pros
+Cost efficient: speed, energy, hardware
+
+## Cons
+* Economic inequality, rich get richer.
+
+## Read more
+https://en.wikipedia.org/wiki/Proof-of-stake
+
