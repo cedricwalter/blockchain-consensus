@@ -128,4 +128,80 @@ introducing a nonlinear proof function that defines a fraction of time active an
 
 ## Read more
 https://vericoin.info/
-Whitepaper
+Whitepaper https://vericoin.info/
+
+# Traditional Proof of stake / Tiered Proof Of Stake (TPOS)
+TPOS or Traditional Proof of stake is a form of the algorithm through which a cryptocurrency Social Network Blockchain aims to realize distributed agreement. In TPOS-derived currencies, the originator of the next block is selected through different combinations of random collection and the stake.
+
+## Used in
+XSN
+## Pros
+* Payments through processing dealings counts mainly on coin holders instead of on miners.
+
+# High Interest Proof of Stake (HiPoS)
+Coin age is used in the calculation for stake weight, but not staking reward. Staking reward is fixed per a schedule. Results in stable, consistent interest for staking wallets as long as down time is minimal and inputs are small. Large input size is harshly punished by HiPOS.
+
+hiPOS is High Interest Proof of Stake. Essentially; a POS system that is a fixed reward rather than a percentage yield; which is awarded out based on luck/coin age/coin weight. hiPOS can be viewed as an extension of POW. Where hiPOS blocks equal the output in terms of coin count as POW blocks - in a short period of time. So a hiPOS coin would say have a total 10M coins; 5M of which are POW over a timespan of 60 Days; and the other 5M are hiPOS minted as POS over an additional 60 Days.
+
+## Used in
+* Positron(2015)
+* BitBean (2015)
+* EdgeCoin (EDGE)
+* GRAVITYBITS
+
+## Pros
+* Great for incentivizing people to hold as developers release more info on their projects
+* allow people with smaller holdings to benefit greatly by simply finding a few blocks at the right time.
+
+# Proof of Identity (PoI)
+Proof of Identity (PoI) is a cryptographic evidence (piece of data) which tells that any user knows a private key that compares to an authorized identity and cryptographically attached to a specific transaction. Every individual from some group can create a PoF (only a block of data) and present it to anyone for instance to the processing node.
+
+## Used in
+NEM
+
+## Read more
+Reddit https://www.reddit.com/r/CryptoUBI/comments/2v2gi6/proof_of_identityproof_of_person_the_elephant_in/
+
+# Proof-of-authority (PoA)
+In PoA-based networks, transactions and blocks are validated by approved accounts, known as validators. alidators run software allowing them to put transactions in blocks. The process is automated and does not require validators to be constantly monitoring their computers. It, however, does require maintaining the computer (the authority node) uncompromised.
+
+## Used in
+* POA.Network https://poa.network/
+* Ethereum Kovan https://kovan.etherscan.io/
+* testnetRinkeby https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc
+
+## Pros
+High throughput; scalable, private blockchains
+## Cons
+* By identifying validators it is a centralized system
+
+## Read more
+Wikipedia https://en.wikipedia.org/wiki/Proof-of-authority
+
+# Proof of Ownership
+This technique can be used by artists or businesses to certify the integrity, date of publication and ownership of their creations or contracts. A Proof of Ownership is always attached to a piece of data using cryptographic functions. This makes it impossible to alter the data after certification. If the content is modified, even by a single bit, then the whole certificate becomes invalid.
+
+Only the people with the private key associated with the signature can prove they are the owner.
+
+# Proof-of-space (PoC)
+(PoSpace), also called proof-of-capacity (PoC) is a means of showing that one has a legitimate interest in a service (such as sending an email) by allocating a non-trivial amount of memory or disk space to solve a challenge presented by the service provider.
+
+## Used in
+* Burstcoin https://hackernoon.com/burst-part-3-proof-of-capacity-the-green-alternative-8e2651211671
+* Chia
+* SpaceMint
+
+## Pros
+* Efficient , cheap, distributed
+
+## Cons
+
+## Read more
+Wikipedia https://en.wikipedia.org/wiki/Proof-of-space
+
+
+
+
+
+
+
