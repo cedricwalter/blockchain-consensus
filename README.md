@@ -474,6 +474,12 @@ Blocktime dependent rewards (~Reward halving every minute decrease in blocktime 
 ## Read more
 Wiki https://wiki.vericoin.info/
 
+# Serialization of Proof-of-work Events: Confirming Transactions via Recursive Elections
+ Utilizes a combination of PoW and DAGs to reach scalable consensus. In SPECTRE, the blocks are mined pointing to multiple parents, not just one, so the network could potentially handle multiple blocks per second. Mining a block pointing to some parent blocks supports those blocks validity. Compared to PoW’s “longest chain wins”, SPECTRE uses something like “blocks with the most childen win.” SPECTRE hasn’t been battle-tested in the wild yet, and new attack vectors are likely to emerge, but it feels like a very clever potential way to fix Bitcoin.
+
+## Used in
+* Proposal for Bitcoin https://bitcoin.org/en
+
 # Proof-of-work (PoW) / High Interest Proof of Stake (HiPoS)
 Coin combining PoW and HiPoS
 
@@ -566,14 +572,13 @@ Whitepaper https://heatledger.com/HEATWhitepaper.pdf
 
 # Direct Acyclic Graph
 
-## Tangle (DAG)
+# Tangle (DAG)
  Tangle is the DAG consensus algorithm used by Iota. In order to send an Iota transaction, you need to validate two previous transactions you’re received. The two-for-one, pay-it-forward consensus strengthens the validity of transactions the more transactions are added to the Tangle. Because the consensus is established by the transactions, theoretically, if someone can generate 1/3 of the transactions they could convince the rest of the network their invalid transactions are valid. Until there’s enough transaction volume that creating 1/3rd of the volume becomes unfeasible, Iota is sort-of “double-checking” all of the network’s transactions on a centralized node called “The Coordinator”. Iota says The Coordinator works like training wheels for the system, and will be removed once the Tangle is big enough.
 
 This is directed, asynchronous graph (DAG) representing each individual transaction. You’ll notice that each transaction references exactly two other transactions to the left.
 
 ## Used in
-
-IOTA
+* IOTA
 ## Pros
 * Low transaction fees (PoW on 2 other Tx)
 * Extremely small transactions
@@ -584,5 +589,98 @@ IOTA
 * No Smart Contracts yet
 * Vulnerable (only 34% of the total hashing power required)
  ## Read more
-iota1_4_3.pdf https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf
-The Coordinator https://domschiener.gitbooks.io/iota-guide/content/chapter1/current-role-of-the-coordinator.html
+* iota1_4_3.pdf https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf
+* The Coordinator https://domschiener.gitbooks.io/iota-guide/content/chapter1/current-role-of-the-coordinator.html
+
+# Block-lattice - Directed Acyclic Graphs (DAGs)
+The Block-lattice is a structure where every user (address) gets their own chain that only they can write to, and everyone holds a copy of all of the chains. Every transaction is broken down into both a send block on the sender’s chain and a receive block on the receiving party’s chain.
+Penny-spend attack: attackers inflate the number of chains node must keep track of by sending negligible amounts to a wide array of empty wallets.
+
+## Used in
+* Raiblocks/Nano https://raiblocks.net/
+
+# LFT
+LFT is a continuation of Tendermint to improve BFT consensus algorithms, it is currently what ICON uses as its consensus algorithm. LFT reduces communication overhead by consolidating messages from the network
+
+## Used in
+ICON
+## Read more
+ICON http://icon.support/a-primer-to-lft-loop-fault-tolerance-consensus-algorithm/
+
+# Modified Federated Byzantine Agreement (mFBA)
+ FBA organises nodes into groups call quorums whereby overall consensus is met by: Quorum consensus among a certain amount of nodes (within a specific quorum); then Consensus among a certain number of quorums to finally determine the final consensus.
+
+## pros
+* Decentralized control
+* Low latency
+* Flexible trust
+* Asymptotic security
+## Read more
+Medium https://medium.com/@boscoin/dpos-mfba-c84bae2e21ae
+
+# Federated Byzantine Agreement
+The general idea is that every Byzantine general, responsible for their own chain, sorts messages as they come in to establish truth. In Ripple the generals (validators) are pre-selected by the Ripple foundation. In Stellar, anyone can be a validator so you choose which validators to trust.
+
+## Used in
+Stellar
+Ripple
+
+## pros
+* High throughput, 
+* low transaction cost, 
+* network scalability
+## Read more
+Stellar Whitepaper https://www.stellar.org/papers/stellar-consensus-protocol.pdf
+
+# Practical Byzantine Fault Tolerance
+PBFT works in asynchronous environments like the Internet and incorporates several important optimizations that improve the response time of previous algorithms by more than an order of magnitude.
+
+## Used in
+Hyperledger Fabric
+## pros
+* High transaction throughput
+## Cons
+Centralized/permissioned
+## Read more
+* http://pmg.csail.mit.edu/papers/osdi99.pdf
+
+# Delegated Byzantine Fault Tolerance
+ The dBFT is called the Delegated Byzantine Fault Tolerant, a Byzantine fault-tolerant consensus mechanism that enables large-scale participation in consensus through proxy voting. The holder of the NEO token can, by voting, pick the bookkeeper it supports. The selected group of bookkeepers, through BFT algorithm, reach a consensus and generate new blocks. Voting in the NEO network continues in real time, rather than in accordance with a fixed term.
+
+##Used in
+* Neo
+## Read more
+* Neo implementation https://github.com/neo-project/docs/blob/master/en-us/index.md#neo-technology-implementation
+
+# Byzantine Fault Tolerance (BFT)
+The classical problem in distributed computing that is usually explained with Byzantine generals.
+
+## Used in
+* Hyperledger https://www.hyperledger.org/
+* Dispatch https://t.me/dispatchlabs
+* Ripple https://ripple.com/
+## Pros
+* High throughput; low cost; scalable
+## COns
+* Semi-trusted
+## Read more
+* Whitepaper https://web.archive.org/web/20170205142845
+* Whitepaper http://lamport.azurewebsites.net/pubs/byz.pdf
+
+
+# Magi's proof-of-work (mPoW)
+ The magi's proof-of-work (PoW) protocol, in addition to required computational works to be done to deter denial of service attacks, is also a network-dependent rewarding model system. The mPoW rewards participants who solve complicated cryptographical questions not only to validate transactions but also to create new blocks and generate coins. The amout of coins generated are constantly monitored by the mPoW protocol and tuned on the basis of an attraction-repulsion model: 1) incremental rewarding to stimulate network activities during passive mining phase, and 2) decremental rewarding to mitigate redundant mining sources during agressive mining phase. mPoW can effectively govern the magi's network and limit it under a certain scale, enabling the general devices to be capable of mining magi.
+
+## Used in
+* MAGI https://www.m-core.org/
+## Read more
+* Whitepaper https://arxiv.org/abs/1409.7948
+
+# Magi's proof-of-stake (mPoS)
+ Aims to achieve distributed consensus through operations in addition to mPoW. mPoS is designed such that it rejects potential attacks through accumulating a large amount of coins or offline staking time, either of which leads to security concerns. Similar to mPoW's operation, mPoS is constructed in accordance with the concept of the attraction-repulsion model. Magi hybridizes mPoW with mPoS, and integrate both consensus approaches in order to acquire benefits from the two mechanisms and create a more robust payment system.
+
+## Used in
+MAGI https://www.m-core.org/
+## Read more
+Bitcointalk https://bitcointalk.org/index.php?topic=735170.msg9991269#msg9991269
+
