@@ -16,6 +16,7 @@ The trilemma claims that blockchain systems can only at most have two of the fol
 
 Each consensus algorithm has its own application scenario. There is no absolute good or bad. The choice of which consensus to use for implementing the blockchain depends on the type of network and data.
 
+# Table of contents
 - [Proof of Work (PoW)](#proof-of-work--pow-)
 - [Proof of stake (PoS)](#proof-of-stake--pos-)
 - [Hybrid Proof of Work (HPoW)](#hybrid-proof-of-work--hpow-)
