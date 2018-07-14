@@ -1,3 +1,7 @@
+- [Blockchain Consensus Encyclopedia](#blockchain-consensus-encyclopedia)
+  * [Introduction](#introduction)
+- [Table of contents](#table-of-contents)
+
 # Blockchain Consensus Encyclopedia
 
 ## Introduction
