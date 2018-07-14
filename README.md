@@ -21,66 +21,7 @@ The trilemma claims that blockchain systems can only at most have two of the fol
 Each consensus algorithm has its own application scenario. There is no absolute good or bad. The choice of which consensus to use for implementing the blockchain depends on the type of network and data.
 
 # Table of contents
-- [Proof of Work (PoW)](#proof-of-work--pow-)
-- [Proof of stake (PoS)](#proof-of-stake--pos-)
-- [Hybrid Proof of Work (HPoW)](#hybrid-proof-of-work--hpow-)
-- [Delegated proof-of-stake (DPoS)](#delegated-proof-of-stake--dpos-)
-- [Leased Proof-of-Stake (LPoS)](#leased-proof-of-stake--lpos-)
-- [Proof-of-Stake-Time (PoST)](#proof-of-stake-time--post-)
-- [Traditional Proof of stake / Tiered Proof Of Stake (TPOS)](#traditional-proof-of-stake---tiered-proof-of-stake--tpos-)
-- [High Interest Proof of Stake (HiPoS)](#high-interest-proof-of-stake--hipos-)
-- [Proof of Identity (PoI)](#proof-of-identity--poi-)
-- [Proof-of-authority (PoA)](#proof-of-authority--poa-)
-- [Proof of Ownership](#proof-of-ownership)
-- [Proof-of-space (PoC)](#proof-of-space--poc-)
-- [Proof-of-Signature (PoSign)](#proof-of-signature--posign-)
-- [Proof of Time](#proof-of-time)
-- [Proof of Existence](#proof-of-existence)
-- [Ouroboros](#ouroboros)
-- [Proof of Retrievability (POR)](#proof-of-retrievability--por-)
-- [Limited Confidence Proof-of-Activity](#limited-confidence-proof-of-activity)
-- [Proof-of-Proof (PoP)](#proof-of-proof--pop-)
-- [Proof of Processed Payments (PoPP)](#proof-of-processed-payments--popp-)
-- [Scrypt-adaptive-N (ASIC resistant)](#scrypt-adaptive-n--asic-resistant-)
-- [Proof of Reputation (PoR)](#proof-of-reputation--por-)
-- [Proof of Research (DPoR)](#proof-of-research--dpor-)
-- [Proof of Burn (PoB)](#proof-of-burn--pob-)
-- [Proof-of-Weight (PoWeight)](#proof-of-weight--poweight-)
-- [Proof of Zero (PoZ)](#proof-of-zero--poz-)
-- [Raft](#raft)
-- [PoET](#poet)
-- [Proof of History](#proof-of-history)
-- [Proof of Stake Velocity](#proof-of-stake-velocity)
-- [Proof of Importance](#proof-of-importance)
-- [Proof of Participation (PoP)](#proof-of-participation--pop-)
-- [Read more](#read-more-24)
-- [Proof Of Activity](#proof-of-activity)
-- [Proof of Care (PoC)](#proof-of-care--poc-)
-- [Proof of Value (PoV)](#proof-of-value--pov-)
-- [Proof of Quality (PoQ)](#proof-of-quality--poq-)
-- [Variable Delayed Proof Of Stake (vDPOS)](#variable-delayed-proof-of-stake--vdpos-)
-- [Proof-of-work time (PoWT)](#proof-of-work-time--powt-)
-- [Serialization of Proof-of-work Events: Confirming Transactions via Recursive Elections](#serialization-of-proof-of-work-events--confirming-transactions-via-recursive-elections)
-- [Proof-of-work (PoW) / High Interest Proof of Stake (HiPoS)](#proof-of-work--pow----high-interest-proof-of-stake--hipos-)
-- [Proof of Work (PoW) / Nexus Proof of State (nPoS) or Nexus Proof of Holding (nPOH)](#proof-of-work--pow----nexus-proof-of-state--npos--or-nexus-proof-of-holding--npoh-)
-- [Delayed Proof of Work (dPoW)](#delayed-proof-of-work--dpow-)
-- [Delayed Proof of Work (dPoW)](#delayed-proof-of-work--dpow--1)
-- [Proof of Work (PoW) / PoM / PoSII](#proof-of-work--pow----pom---posii)
-- [Proof of Work (PoW) / Proof of Stake (PoS) / Proof Of Care (PoC)](#proof-of-work--pow----proof-of-stake--pos----proof-of-care--poc-)
-- [Proof of Stake (PoS) / Proof of Disintegration (PoD)](#proof-of-stake--pos----proof-of-disintegration--pod-)
-- [Proof-of-Stake (POS) / Proof-of-Presence (PoP)](#proof-of-stake--pos----proof-of-presence--pop-)
-- [Leasing Proof of Stake (PoS/LPoS)](#leasing-proof-of-stake--pos-lpos-)
-- [Direct Acyclic Graph](#direct-acyclic-graph)
-- [Tangle (DAG)](#tangle--dag-)
-- [Block-lattice - Directed Acyclic Graphs (DAGs)](#block-lattice---directed-acyclic-graphs--dags-)
-- [LFT](#lft)
-- [Modified Federated Byzantine Agreement (mFBA)](#modified-federated-byzantine-agreement--mfba-)
-- [Federated Byzantine Agreement](#federated-byzantine-agreement)
-- [Practical Byzantine Fault Tolerance](#practical-byzantine-fault-tolerance)
-- [Delegated Byzantine Fault Tolerance](#delegated-byzantine-fault-tolerance)
-- [Byzantine Fault Tolerance (BFT)](#byzantine-fault-tolerance--bft-)
-- [Magi's proof-of-work (mPoW)](#magi-s-proof-of-work--mpow-)
-- [Magi's proof-of-stake (mPoS)](#magi-s-proof-of-stake--mpos-)
+
 
 # Proof of Work (PoW)
 Bitcoin, which made the blockchain technology popular, developed the so-called Proof of Work (PoW) algorithm. In principle, each participant on the Bitcoin network can participate in the block generation. In order to confirm the transaction and enter a block into the blockchain, a miner has to provide an answer, or a proof, to a specific challenge. Miners use PoW to validate transactions and mining new coins, but its main goal is to block potential cyber-attacks or suspicious activities within the network. Each time a miner confirms a transaction, he is rewarded with Bitcoin(s). The disadvantage of this algorithm is that it consumes large quantities of electricity.
@@ -96,9 +37,9 @@ Bitcoin, which made the blockchain technology popular, developed the so-called P
 * Transaction fees not mandatory
 
 ## Cons
-* Energy intensive
-* vulnerable to 51% attack
-Reducing block rewards
+* PoW uses an enormous amount of computing power, which, in itself lowers incentive
+* It is also vulnerable to attack, as a potential attacker would only need to have 51% of the mining resources (hashrate) to control a network, although this is not easy to do.
+* Reducing block rewards
 
 ### Read more
 - https://en.wikipedia.org/wiki/Proof-of-work_system
@@ -109,6 +50,8 @@ Reducing block rewards
 - [Permacoin: Repurposing bitcoin work for data preservation](http://ieeexplore.ieee.org/iel7/6954656/6956545/06956582.pdf). Miller A, Juels A, Shi E, Parno B, Katz J. Permacoin. S&P '14.
 
 # Proof of stake (PoS)
+The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. 
+
 Proof of stake (PoS) is a type of algorithm by which a cryptocurrency blockchain network aims to achieve distributed consensus. Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
 
 Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
@@ -243,6 +186,17 @@ Reddit https://www.reddit.com/r/CryptoUBI/comments/2v2gi6/proof_of_identityproof
 
 # Proof-of-authority (PoA)
 In PoA-based networks, transactions and blocks are validated by approved accounts, known as validators. alidators run software allowing them to put transactions in blocks. The process is automated and does not require validators to be constantly monitoring their computers. It, however, does require maintaining the computer (the authority node) uncompromised.
+With PoA individuals earn the right to become validators, so there is an incentive to retain the position that they have gained. By attaching a reputation to identity, validators are incentivized to uphold the transaction process, as they do not wish to have their identities attached to a negative reputation. 
+
+This is considered more robust than PoS, as:
+* In PoS, while a stake between two parties may be even, it does not take into account each party’s total holdings. This means that incentives can be unbalanced.
+* PoW uses an enormous amount of computing power, which, in itself lowers incentive
+
+## Establishing authority
+The three main conditions that must be fulfilled for a validator to be established are:
+1. Identity must be formally verified on-chain, with a possibility to cross-check the information in a publicly available domain
+2. Eligibility must be difficult to obtain, to make the right to validate the blocks earned and valued. (Example: potential validators are required to obtain public notary license)
+3. There must be complete uniformity in the checks and procedures for establishing an authority
 
 ## Used in
 * POA.Network https://poa.network/
@@ -250,7 +204,10 @@ In PoA-based networks, transactions and blocks are validated by approved account
 * testnetRinkeby https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc
 
 ## Pros
-High throughput; scalable, private blockchains
+* High throughput; scalable
+* No mining mechanism like in PoW, PoA uses identity as the sole verification of the authority to validate,
+* PoA is suited for both private networks and public networks
+* PoA only allows non-consecutive block approval from any one validator, meaning that the risk of serious damage is minimized.
 ## Cons
 * By identifying validators it is a centralized system
 
