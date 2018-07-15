@@ -527,7 +527,7 @@ A proof of Retrievability (POR) is a compact proof by a file system (prover) to 
 * Whitepaper https://eprint.iacr.org/2008/175.pdf
 
 # Limited Confidence Proof-of-Activity
-Combine Proof of Work component with a Proof of Stake. mining first begins in the traditional manner, with miners vying to be the first to solve a puzzle and claim their reward. The difference is that the blocks being mined do not contain transactions. They are simply templates with header information and the mining reward address. Once this nearly blank block is mined, the system switches to a proof of stake protocol. The header information is used to select a random group of validators to sign the block. These are coin holders (stakeholders) and the larger the stake a validator holds, the greater the chance they will be selected to sign the new block. Once all the chosen validators sign the block it becomes an actual part of the blockchain. If the block remains unsigned by some of the chosen validators after a given time, it is discarded as incomplete and the next winning block is used. Validators are once again chosen and this continues until a winning block is signed by all the chosen validators. The network fees are split between the winning miner and the validators who signed the block.,
+Combine Proof of Work component with a Proof of Stake. mining first begins in the traditional manner, with miners vying to be the first to solve a puzzle and claim their reward. The difference is that the blocks being mined do not contain transactions. They are simply templates with header information and the mining reward address. Once this nearly blank block is mined, the system switches to a proof of stake protocol. The header information is used to select a random group of validators to sign the block. These are coin holders (stakeholders) and the larger the stake a validator holds, the greater the chance they will be selected to sign the new block. Once all the chosen validators sign the block it becomes an actual part of the blockchain. If the block remains unsigned by some of the chosen validators after a given time, it is discarded as incomplete and the next winning block is used. Validators are once again chosen and this continues until a winning block is signed by all the chosen validators. The network fees are split between the winning miner and the validators who signed the block.
 
 ## Used in
 * Decred https://www.decred.org/
@@ -538,13 +538,14 @@ Combine Proof of Work component with a Proof of Stake. mining first begins in th
 * Research Paper https://eprint.iacr.org/2014/452.pdf
 
 # Proof-of-Proof (PoP)
-The Proof of Proof™ consensus protocol enables blockchains to inherit proof-of-work security from other blockchains, creating an ecosystem wherein security originates on established blockchains like Bitcoin and extends to other blockchains.
+The Proof of Proof™ consensus protocol enables blockchains to inherit proof-of-work security from other blockchains, creating an ecosystem wherein security originates on established blockchains like Bitcoin and extends to other blockchains. 
+The PoP protocol introduces a new type of miner who performs periodic publications of one blockchain’s current state to another blockchain. These publications are referenced in the event of a potential blockchain reorganization. PoP requires a blockchain has some means of creating blocks, such as low-hashrate local PoW, PoS, etc. 
 
 ## Used in
-* VeriBlock
+* [VeriBlock](https://www.veriblock.org)
 
 ## Read more
-WhitePaper https://www.veriblock.com/wp-content/uploads/2017/02/PoP-White-Paper-v1.0j.pdf
+* [WhitePaper](https://www.veriblock.com/wp-content/uploads/2017/02/PoP-White-Paper-v1.0j.pdf)
 
 # Proof of Processed Payments (PoPP)
 Proof-of-Processed-Payments (PoPP) is how Metal aims to distribute MTL to the masses. Think of it as a human-powered Proof-of-Work (POW), as opposed to a computational-powered PoW, such as the one Bitcoin uses. PoPP acts as a provable way of identifying users and distributing new currency into the system. At the same time, it rewards users who convert fiat currency into cryptocurrency. When a payment is settled, a portion of the gross amount of the payment is returned in MTL. The amount received is up to 5% of the volume of the transaction at trading value for MTL in either direction (sender/receiver). Consider as an example that Alice sends Bob $100 using the Metal Pay app and at the time MTL is trading at $1 per MTL. Following confirmation of a successful transaction, both Alice and Bob would receive $5 in MTL, which in this case would be 5 MTL.
