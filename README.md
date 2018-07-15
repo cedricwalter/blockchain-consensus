@@ -555,10 +555,28 @@ The idea is that N (memory requirement) will always increase over time, renderin
 * SiliconValleyCoin (XSV)
 
 # Proof of Reputation (PoR)
-Proof of Reputation (PoR) consensus model depends on the reputation of the participants to keep the network secure. A participant (a block signer) must have a reputation important enough that they would face significant financial and brand consequences if they were to attempt to cheat the system.
+POR is an upgraded, stronger, and more secure form of Proof of Authority (POA). In POA the transactions and blocks are validated by approved accounts known as validators. POA has typically been used in private networks and most recently a few companies that have adopted it to use individuals as the validators whose identities are publicly disclosed and at stake.
+
+Proof of Reputation (PoR) consensus model depends on the reputation of the participants to keep the network secure. A participant (a block signer) must have a reputation important enough that they would face significant financial and brand consequences if they were to attempt to cheat the system. POR uses companies as validators not individuals. 
+
+Once a company proves reputation and passes verification, they may be voted into the network as an authoritative node and at this point, it operates like a Proof of Authority network (PoA), where only authoritative nodes can sign and validate blocks.
+
+A company caught cheating would not only be risking its reputation. It would be risking its entire market cap and the reputation of
+the officers and shareholders of the company. It would have significantly more to lose than any one individual. 
+
+## Pros
+* For private, permissioned blockchains.
+* Fast since no PoW needed
+
+## Cons
+* Only for private, permissioned blockchains.
+* Subject to 51% attack like PoW, but more unlikely that spo many entities in the network colludes.
+
+## Used by
+* [GoChain](https://gochain.io/) that support smart contracts
 
 ## Read more
-HackerNoon https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f
+[Medium](https://medium.com/gochain/proof-of-reputation-e37432420712)
 
 # Proof of Research (DPoR)
 Each participant helps performing research by computations in Gridcoins network. The network average is similar to difficulty in PoW mining. As the network average rises it becomes harder to get the same magnitude so if you want to keep getting the same reward you would have to add more compute power if we have an environment of a rising network average. If the price rose significantly more compute power would come on board, raising the network average, making it harder to get the same reward, just like difficulty in PoW.
