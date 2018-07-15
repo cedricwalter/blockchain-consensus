@@ -231,7 +231,7 @@ For a transaction to be valid on most cryptocurrency networks, the transaction n
 
 
 # Proof of Work (PoW)
-PoW was originally invented as a means to combat spam if you make it computationally expensive to send email then spamming would be cost
+PoW was originally invented as a means to combat spam (see [hashcash](https://en.wikipedia.org/wiki/Hashcash))if you make it computationally expensive to send email then spamming would be cost
 prohibitive while still being almost free for a normal user to send email. 
 
 Bitcoin, which made the blockchain technology popular, developed the so-called Proof of Work (PoW) algorithm. In principle, each participant on the Bitcoin network can participate in the block generation. In order to confirm the transaction and enter a block into the blockchain, a miner has to provide an answer, or a proof, to a specific challenge. Miners use PoW to validate transactions and mining new coins, but its main goal is to block potential cyber-attacks or suspicious activities within the network. 
@@ -741,8 +741,10 @@ As in PoW, miners race to solve a cryptographic puzzle. Then the system switches
 
 ## Used in
 * Decred https://www.decred.org/
+
 ## Pros
 * Criticisms are the same as for both proof of work and proof of stake.
+
 ## Read more
 
 ## Proof of Believability
