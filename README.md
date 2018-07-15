@@ -2,6 +2,8 @@
 
 # Blockchain Consensus Encyclopedia
 
+More than 53 Blockchain Consensus described.
+
   * [Introduction](#introduction)
   * [Blockchain Consensus?](#blockchain-consensus-)
 - [Proof of Work (PoW)](#proof-of-work--pow-)
