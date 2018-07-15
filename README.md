@@ -231,7 +231,12 @@ For a transaction to be valid on most cryptocurrency networks, the transaction n
 
 
 # Proof of Work (PoW)
-Bitcoin, which made the blockchain technology popular, developed the so-called Proof of Work (PoW) algorithm. In principle, each participant on the Bitcoin network can participate in the block generation. In order to confirm the transaction and enter a block into the blockchain, a miner has to provide an answer, or a proof, to a specific challenge. Miners use PoW to validate transactions and mining new coins, but its main goal is to block potential cyber-attacks or suspicious activities within the network. Each time a miner confirms a transaction, he is rewarded with Bitcoin(s). The disadvantage of this algorithm is that it consumes large quantities of electricity.
+PoW was originally invented as a means to combat spam if you make it computationally expensive to send email then spamming would be cost
+prohibitive while still being almost free for a normal user to send email. 
+
+Bitcoin, which made the blockchain technology popular, developed the so-called Proof of Work (PoW) algorithm. In principle, each participant on the Bitcoin network can participate in the block generation. In order to confirm the transaction and enter a block into the blockchain, a miner has to provide an answer, or a proof, to a specific challenge. Miners use PoW to validate transactions and mining new coins, but its main goal is to block potential cyber-attacks or suspicious activities within the network. 
+
+In cryptocurrency networks, “miners” are special nodes that perform the PoW calculation on a set of transactions plus the hash of the previous block to generate the next block in the blockchain. Since the block contains the hash of the previous block, changing a historical block would require regenerating all of the subsequent blocks. Regenerating all the hashes would be computationally intensive and would require a lot of energy – and energy isn’t free. It would also be time consuming. The process of proving work and generating blocks is called ”mining”. Miners are rewarded for this work with newly minted coins adding to the total supply.
 
 1. Transactions are bundled together in form of blocks.
 2. Miners verify the transactions within the blocks as legitimate.
@@ -247,6 +252,7 @@ Bitcoin, which made the blockchain technology popular, developed the so-called P
 * Transaction fees not mandatory
 
 ## Cons
+* Poor performance
 * PoW uses an enormous amount of computing power, which, in itself lowers incentive
 * It is also vulnerable to attack, as a potential attacker would only need to have 51% of the mining resources (hashrate) to control a network, although this is not easy to do.
 * Reducing block rewards
@@ -260,7 +266,8 @@ Bitcoin, which made the blockchain technology popular, developed the so-called P
 - [Permacoin: Repurposing bitcoin work for data preservation](http://ieeexplore.ieee.org/iel7/6954656/6956545/06956582.pdf). Miller A, Juels A, Shi E, Parno B, Katz J. Permacoin. S&P '14.
 
 # Proof of stake (PoS)
-The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. The amount of coins that a network may require changes just like the difficulty in PoW.
+The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. 
+The idea is that those with the most coins in circulation have the most to lose so they are positioned to work in the interest of the network. The amount of coins that a network may require changes just like the difficulty in PoW.
 
 ## Coin age
 To distinguish between users who have just obtained their coins and users who have been holding their coins for a period of time, proof-of-stake algorithms use the idea of coin age.
@@ -275,13 +282,16 @@ In order to keep most user active, the reward for the creation of a block increa
 ## Penalizing offline users
 Most if not all PoS algorithm penalize Holders which can stay offline for long periods of time. Otherwise they could get control by connecting back to it and having over 50% of voting power because of the size of their holdings.
 
+## Pseudo anonymous users
+Validators within the PoS network are anonymous users who are identified only by their wallet address. This pro-vides no additional accountability over PoW for bad actors who can amass significant wealth on the network.
+
 ## Algorithm
 1. The validators will have to lock up some of their coins as stake.
 2. After that, they will start validating the blocks. Meaning, when they discover a block which they think can be added to the chain, they will validate it by placing a bet on it.
 3. If the block gets appended, then the validators will get a reward proportional to their bets.
 
 ## BlackCoin / Qtum specifics
-
+TODO
 
 ## Used in
 * Ada
@@ -300,6 +310,7 @@ Most if not all PoS algorithm penalize Holders which can stay offline for long p
 ## Cons
 * Economic inequality, rich get richer.
 * Attackers can calculate the probability of winning the reward to create a block of the blockchain based on who has how many coins.
+* Initial targets for Ethereum’s Casper implementation are only 100 TPS
 
 ## Read more
 https://en.wikipedia.org/wiki/Proof-of-stake
@@ -565,6 +576,15 @@ Once a company proves reputation and passes verification, they may be voted into
 
 A company caught cheating would not only be risking its reputation. It would be risking its entire market cap and the reputation of
 the officers and shareholders of the company. It would have significantly more to lose than any one individual. 
+
+## 
+**Authorized Signers** Authorized signers are trusted nodes that create blocks, sign them, and distribute them to
+other nodes. A list of authorized signers will be maintained on the blockchain. Only authorized nodes can sign blocks and all blocks are verified that this is true by checking the signer is in the authorized list. The signing algorithm is essentially the same signature algorithm as PoW but with a different set of headers. PoW-specific headers will be removed and additional headers added to
+enable voting.
+Given N authorized signers, a signer may only sign a block every (N/2) + 1. This ensures that someone would need to control > 50% of signers to perform a malicious attack.
+Authorized signers will be rewarded in Coins per block signed.
+
+The consensus protocol ensures fairness and liveness by incentivizing the assigned signer of a block to perform the signing but also allowing other blocks to sign if the assigned signer is unavailable. The assigned signer for a block is determined by a round-robin lookup of the authorized signer list. If the assigned signer doesn’t respond then then other signers can sign at a lower block difficulty level. 
 
 ## Pros
 * For private, permissioned blockchains.
