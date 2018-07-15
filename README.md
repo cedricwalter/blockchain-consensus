@@ -221,6 +221,8 @@ The trilemma claims that blockchain systems can only at most have two of the fol
 
 Each consensus algorithm has its own application scenario. There is no absolute good or bad. The choice of which consensus to use for implementing the blockchain depends on the type of network and data.
 
+For a transaction to be valid on most cryptocurrency networks, the transaction needs to collect a certain number of confirmations (often equals to an inclusion in a block of a blockchain) from the network. E.g 10 confirmations means to see a specific transaction in one block and 9 consecutive blocks.
+
 # Table of contents
 
 
@@ -251,15 +253,28 @@ Bitcoin, which made the blockchain technology popular, developed the so-called P
 - [Permacoin: Repurposing bitcoin work for data preservation](http://ieeexplore.ieee.org/iel7/6954656/6956545/06956582.pdf). Miller A, Juels A, Shi E, Parno B, Katz J. Permacoin. S&P '14.
 
 # Proof of stake (PoS)
-The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. 
+The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. The amount of coins that a network may require changes just like the difficulty in PoW.
 
-Proof of stake (PoS) is a type of algorithm by which a cryptocurrency blockchain network aims to achieve distributed consensus. Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
+## Coin age
+To distinguish between users who have just obtained their coins and users who have been holding their coins for a period of time, proof-of-stake algorithms use the idea of coin age.
 
 Coin age is used in the calculation for both stake weight AND the staking reward. Staking reward is set by the coin's APR. The effect is a stable, consistent interest for all staking wallets, regardless of input size or reasonable downtime.
 
+The longer a user holds the coins, the higher the changes of winning the right to create a block of the network blockchain and get a reward.
+
+## Incentivizing to stay connected
+In order to keep most user active, the reward for the creation of a block increase if there is too many users offline, so there is more  benefits to go online.
+
+## Penalizing offline users
+Most if not all PoS algorithm penalize Holders which can stay offline for long periods of time. Otherwise they could get control by connecting back to it and having over 50% of voting power because of the size of their holdings.
+
+## Algorithm
 1. The validators will have to lock up some of their coins as stake.
 2. After that, they will start validating the blocks. Meaning, when they discover a block which they think can be added to the chain, they will validate it by placing a bet on it.
 3. If the block gets appended, then the validators will get a reward proportional to their bets.
+
+## BlackCoin / Qtum specifics
+
 
 ## Used in
 * Ada
@@ -267,13 +282,17 @@ Coin age is used in the calculation for both stake weight AND the staking reward
 * Gridcoin
 * Nxt
 * Waves
+* BlackCoin 
+* Qtum 
 * In Future with Casper in Ethereum
 
 ## Pros
-Cost efficient: speed, energy, hardware
+* Cost efficient: speed, energy, hardware
+* The more people use the network and have coins, the more secure the network.
 
 ## Cons
 * Economic inequality, rich get richer.
+* Attackers can calculate the probability of winning the reward to create a block of the blockchain based on who has how many coins.
 
 ## Read more
 https://en.wikipedia.org/wiki/Proof-of-stake
