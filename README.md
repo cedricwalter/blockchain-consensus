@@ -654,9 +654,9 @@ As long as the hash function chosen is collision resistant, this set of hashes c
 
 In the example in Figure 2, hash 62f51643c1 was produced on count 510144806912 and hash c43d862d88 was produced on count 510146904064. Following the previously discussed properties of the PoH algorithm, we can trust that real time passed between count 510144806912 and count 510146904064.
 
-![PoH sequence](https://github.com/cedricwalter/blockchain-consensus/images/poh-sequence.png)
+![PoH sequence](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/poh-sequence.png)
 
-Check solana-whitepaper.pdf for more details how PoH is implemented and how it scale https://github.com/cedricwalter/blockchain-consensus/whitepaper/PoH-Solana-whitepaper.pdf
+Check solana-whitepaper.pdf for more details how PoH is implemented and how it scale https://raw.github.com/cedricwalter/blockchain-consensus/master/whitepaper/PoH-Solana-whitepaper.pdf
 
 
 ## Used in
@@ -862,6 +862,8 @@ Whitepaper https://heatledger.com/HEATWhitepaper.pdf
 # Tangle (DAG)
  Tangle is the DAG consensus algorithm used by Iota. In order to send an Iota transaction, you need to validate two previous transactions you’re received. The two-for-one, pay-it-forward consensus strengthens the validity of transactions the more transactions are added to the Tangle. Because the consensus is established by the transactions, theoretically, if someone can generate 1/3 of the transactions they could convince the rest of the network their invalid transactions are valid. Until there’s enough transaction volume that creating 1/3rd of the volume becomes unfeasible, Iota is sort-of “double-checking” all of the network’s transactions on a centralized node called “The Coordinator”. Iota says The Coordinator works like training wheels for the system, and will be removed once the Tangle is big enough.
 
+![What is Tangle](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/tangle1.png)
+
 This is directed, asynchronous graph (DAG) representing each individual transaction. You’ll notice that each transaction references exactly two other transactions to the left.
 
 ## Used in
@@ -896,6 +898,8 @@ ICON http://icon.support/a-primer-to-lft-loop-fault-tolerance-consensus-algorith
 
 # Modified Federated Byzantine Agreement (mFBA)
  FBA organises nodes into groups call quorums whereby overall consensus is met by: Quorum consensus among a certain amount of nodes (within a specific quorum); then Consensus among a certain number of quorums to finally determine the final consensus.
+
+![mFBA](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/mFBA.png)
 
 ## pros
 * Decentralized control
