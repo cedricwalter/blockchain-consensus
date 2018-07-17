@@ -245,8 +245,8 @@ The core idea of Avalanche is metastability.
 ## Cons
 
 ### Read more
-[Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV)
-[demystifying-snowflake-to-avalanche](https://medium.com/zkcapital/demystifying-snowflake-to-avalanche-966f56c33fd7)
+* [Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV)
+* [demystifying-snowflake-to-avalanche](https://medium.com/zkcapital/demystifying-snowflake-to-avalanche-966f56c33fd7)
 
 # Proof of Work (PoW)
 PoW was originally invented as a means to combat spam (see [hashcash](https://en.wikipedia.org/wiki/Hashcash))if you make it computationally expensive to send email then spamming would be cost
@@ -254,8 +254,10 @@ prohibitive while still being almost free for a normal user to send email.
 
 Bitcoin, which made the blockchain technology popular, developed the so-called Proof of Work (PoW) algorithm. In principle, each participant on the Bitcoin network can participate in the block generation. In order to confirm the transaction and enter a block into the blockchain, a miner has to provide an answer, or a proof, to a specific challenge. Miners use PoW to validate transactions and mining new coins, but its main goal is to block potential cyber-attacks or suspicious activities within the network. 
 
+## Miners
 In cryptocurrency networks, “miners” are special nodes that perform the PoW calculation on a set of transactions plus the hash of the previous block to generate the next block in the blockchain. Since the block contains the hash of the previous block, changing a historical block would require regenerating all of the subsequent blocks. Regenerating all the hashes would be computationally intensive and would require a lot of energy – and energy isn’t free. It would also be time consuming. The process of proving work and generating blocks is called ”mining”. Miners are rewarded for this work with newly minted coins adding to the total supply.
 
+## algorithm
 1. Transactions are bundled together in form of blocks.
 2. Miners verify the transactions within the blocks as legitimate.
 3. Miners then solve a mathematical problem known as the proof-of-work problem.
@@ -303,7 +305,16 @@ Most if not all PoS algorithm penalize Holders which can stay offline for long p
 ## Pseudo anonymous users
 Validators within the PoS network are anonymous users who are identified only by their wallet address. This pro-vides no additional accountability over PoW for bad actors who can amass significant wealth on the network.
 
+## Security
+The security model is an economic one, based on the “game-theory” assumption that the cost of acquiring the tokens necessary to become a block producer is more than an attacker is willing to bear, that couples the network’s security to the value of its token, ie: the higher the value of the token, the more secure the network becomes.
+
+## nothing-at-stake attack
+ Without economic penalties for attackers, the chain can suffer nothing-at-stake attacks where stakers are incentivised to validate all proposed forks to maximise their returns.
+![pos-nothing-stake](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/pos-nothing-stake.png)
+ 
 ## Algorithm
+![Cosmos.network.pos](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/pos-cosmos.network.png)
+
 1. The validators will have to lock up some of their coins as stake.
 2. After that, they will start validating the blocks. Meaning, when they discover a block which they think can be added to the chain, they will validate it by placing a bet on it.
 3. If the block gets appended, then the validators will get a reward proportional to their bets.
