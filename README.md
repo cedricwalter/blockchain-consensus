@@ -73,7 +73,7 @@ More than 55 Blockchain Consensus described.
 - [Proof of Retrievability (POR)](#proof-of-retrievability--por-)
   * [Used in](#used-in-14)
   * [Read more](#read-more-13)
-- [Limited Confidence Proof-of-Activity](#limited-confidence-proof-of-activity)
+- [Proof-of-Activity](#proof-of-activity)
   * [Used in](#used-in-15)
   * [Read more](#read-more-14)
 - [Proof-of-Proof (PoP)](#proof-of-proof--pop-)
