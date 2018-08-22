@@ -711,7 +711,14 @@ Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (P
 Productive network activity, not just the number of coins accumulated, should be rewarded. Participants who frequently send and receive transactions are more likely to find blocks.
 
 ## Used in
-New Economy Movement (XEM)
+* New Economy Movement (NEM) Only accounts that have min 10k vested coins are eligible to harvest (create a block). Accounts with higher importance scores have higher probabilities of harvesting a block. The higher amount of vested coins, the higher the account’s Importance score. And the higher amount of transactions that satisfy following conditions: 
+** transactions sum min 1k coins, 
+** transactions made within last 30 days, 
+** recipient  have 10k vested coins too, 
+** the higher account’s Important score. Harvester is rewarded with fees for the transactions in the block. 
+** A new block is created approx. every 65 sec.
+[whitepaper](https://nem.io/wp-content/themes/nem/files/NEM_techRef.pdf) - [link1](https://nem.io/investors/harvesting-and-poi/#proof-of-importance)
+
 ## Pros
 You can still be a priority (over miner) if you perform frequent transactions and connections that are good for the ecosystem.
 ## Read more
@@ -1033,8 +1040,14 @@ The general idea is that every Byzantine general, responsible for their own chai
 ** Each node receives transaction from external applications 
 ** Each Node forms public list of all valid (not included into last ledger (=block)) transactions aka (Candidate Set) 
 ** Nodes merge its candidate set with UNLs(Unique Node List) candidate sets and vote on the veracity of all transactions (1st round of consensus) 
-** all transactions that received at least 50% votes are passed on the next round (many rounds may take place) -> final round of consensus requires that min 80% of Nodes UNL agreeing on transactions. It means that at least 80% of Validating nodes should have same Candidate SET of transactions -> after that each Validating node computes a new ledger (=block) with all transactions (with 80% UNL agreement) and calculate ledger hash, signs and broadcasts -> All Validating nodes compare their ledgers hash 
-** Nodes of the network recognize a ledger instance as validated when a 80% of the peers have signed and broadcast the same validation hash. -> Process repeats. Ledger creation process lasts 5 sec(?). Each transaction includes transaction fee (min 0,00001 XRP) which is destroyed. No block rewards.  
+** all transactions that received at least 50% votes are passed on the next round (many rounds may take place) 
+** final round of consensus requires that min 80% of Nodes UNL agreeing on transactions. It means that at least 80% of Validating nodes should have same Candidate SET of transactions 
+** after that each Validating node computes a new ledger (=block) with all transactions (with 80% UNL agreement) and calculate ledger hash, signs and broadcasts 
+** All Validating nodes compare their ledgers hash 
+** Nodes of the network recognize a ledger instance as validated when a 80% of the peers have signed and broadcast the same validation hash. 
+** Process repeats. Ledger creation process lasts 5 sec(?). 
+Each transaction includes transaction fee (min 0,00001 XRP) which is destroyed. No block rewards.  
+[whitepaper](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
 
 ## pros
 * High throughput, 
