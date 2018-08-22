@@ -2,7 +2,7 @@
 
 # Blockchain Consensus Encyclopedia
 
-More than 56 Blockchain Consensus described.
+More than 57 Blockchain Consensus described.
 
 # Index
   * [Introduction](#introduction)
