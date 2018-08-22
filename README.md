@@ -4,6 +4,7 @@
 
 More than 56 Blockchain Consensus described.
 
+# Index
   * [Introduction](#introduction)
   * [Blockchain Consensus?](#blockchain-consensus)
 - [Avalanche](#avalanche)
@@ -289,6 +290,7 @@ In cryptocurrency networks, “miners” are special nodes that perform the PoW 
 - [Cuckoo Cycle: a memory bound graph-theoretic proof-of-work](http://fc15.ifca.ai/preproceedings/bitcoin/paper_12.pdf). Tromp J. FC '15.
 - [PieceWork: Generalized Outsourcing Control for Proofs of Work](http://fc17.ifca.ai/bitcoin/papers/bitcoin17-final24.pdf). Daian P, Eyal I, Juels A, Sirer EG. FC '17.
 - [Permacoin: Repurposing bitcoin work for data preservation](http://ieeexplore.ieee.org/iel7/6954656/6956545/06956582.pdf). Miller A, Juels A, Shi E, Parno B, Katz J. Permacoin. S&P '14.
+[↑ Index ↑](#index)
 
 # Proof of Meaningful Work (PoMW)
 While the basic idea, to protect the Blockchain by proving that a certain amount of computation was invested to create every single block, is worth being preserved, the current implementation, using purely artificial computational tasks (hashing), with the sole goal of burning “enough” energy, is much too wasteful to be used productively1 and scales
