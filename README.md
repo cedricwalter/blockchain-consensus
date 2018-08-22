@@ -2,7 +2,7 @@
 
 # Blockchain Consensus Encyclopedia
 
-More than 57 Blockchain Consensus described.
+More than 58 Blockchain Consensus described.
 
 # Index
   * [Introduction](#introduction)
@@ -19,6 +19,7 @@ More than 57 Blockchain Consensus described.
 - [High Interest Proof of Stake (HiPoS)](#high-interest-proof-of-stake-hipos)
 - [Proof of Identity (PoI)](#proof-of-identity-poi)
 - [Proof-of-authority (PoA)](#proof-of-authority-poa)
+- [Proof of Devotion](#proof-of-devotion)
 - [Ethereum Proof of Authority](#ethereum-proof-of-authority)  
 - [Proof of Ownership](#proof-of-ownership)
 - [Proof-of-space (PoC)](#proof-of-space-poc)
