@@ -10,7 +10,7 @@ More than 55 Blockchain Consensus described.
   * [Pros](#pros)
   * [Cons](#cons)
   * [Read more](#read-more)
-- [Proof of Work (PoW)](#proof-of-work--pow-)
+- [Proof of Work (PoW)](#proof-of-work-pow)
   * [Pros](#pros)
   * [Cons](#cons)
   * [Read more](#read-more)
