@@ -237,7 +237,7 @@ TODO
 * Initial targets for Ethereum’s Casper implementation are only 100 TPS
 
 ## Read more
-https://en.wikipedia.org/wiki/Proof-of-stake
+[Wikipedia](https://en.wikipedia.org/wiki/Proof-of-stake)
 
 [Go to Index](#index)
 
@@ -251,10 +251,10 @@ fluctuating minimum amount of Lynx to win a block.
 3. By using random selection, the fastest miners are not always guaranteed to win the block reward.
 
 ## Used in
-Lynx https://getlynx.io/
+[Lynx](https://getlynx.io/)
 
 ## Pros
-mining unprofitable
+* mining unprofitable
 
 ## Cons
 
@@ -325,8 +325,7 @@ introducing a nonlinear proof function that defines a fraction of time active an
 * maintains the efficiencies of Proof-of-Stake
 
 ## Read more
-https://vericoin.info/
-Whitepaper https://vericoin.info/
+* [Vericoin](https://vericoin.info)
 
 # Traditional Proof of stake / Tiered Proof Of Stake (TPOS)
 TPOS or Traditional Proof of stake is a form of the algorithm through which a cryptocurrency Social Network Blockchain aims to realize distributed agreement. In TPOS-derived currencies, the originator of the next block is selected through different combinations of random collection and the stake.
@@ -360,7 +359,7 @@ Proof of Identity (PoI) is a cryptographic evidence (piece of data) which tells 
 NEM
 
 ## Read more
-Reddit https://www.reddit.com/r/CryptoUBI/comments/2v2gi6/proof_of_identityproof_of_person_the_elephant_in/
+[Reddit](https://www.reddit.com/r/CryptoUBI/comments/2v2gi6/proof_of_identityproof_of_person_the_elephant_in)
 
 [Go to Index](#index)
 
@@ -379,9 +378,9 @@ The three main conditions that must be fulfilled for a validator to be establish
 3. There must be complete uniformity in the checks and procedures for establishing an authority
 
 ## Used in
-* POA.Network https://poa.network/
-* Ethereum Kovan https://kovan.etherscan.io/
-* testnetRinkeby https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc
+* [POA.Network](https://poa.network)
+* [Ethereum Kovan](https://kovan.etherscan.io)
+* [testnetRinkeby](https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc)
 
 ## Pros
 * High throughput; scalable
@@ -392,7 +391,7 @@ The three main conditions that must be fulfilled for a validator to be establish
 * By identifying validators it is a centralized system
 
 ## Read more
-Wikipedia https://en.wikipedia.org/wiki/Proof-of-authority
+[Wikipedia](https://en.wikipedia.org/wiki/Proof-of-authority)
 
 [Go to Index](#index)
 
@@ -412,7 +411,7 @@ Only the people with the private key associated with the signature can prove the
 (PoSpace), also called proof-of-capacity (PoC) is a means of showing that one has a legitimate interest in a service (such as sending an email) by allocating a non-trivial amount of memory or disk space to solve a challenge presented by the service provider.
 
 ## Used in
-* Burstcoin https://hackernoon.com/burst-part-3-proof-of-capacity-the-green-alternative-8e2651211671
+* [Burstcoin](https://hackernoon.com/burst-part-3-proof-of-capacity-the-green-alternative-8e2651211671)
 * Chia
 * SpaceMint
 
@@ -422,7 +421,7 @@ Only the people with the private key associated with the signature can prove the
 ## Cons
 
 ## Read more
-Wikipedia https://en.wikipedia.org/wiki/Proof-of-space
+[Wikipedia](https://en.wikipedia.org/wiki/Proof-of-space)
 
 [Go to Index](#index)
 
@@ -435,8 +434,8 @@ PoSIGN consensus is achieved through the interactions between a system of real a
 * XBY
 
 ## Read more
-* Reddit https://www.reddit.com/r/CryptoCurrency/comments/7ifzer/understanding_xbys_proofofsignature_posign/
-* Whitepaper https://xtrabytes.global/build/files/whitepaper.pdf/
+* [Reddit](https://www.reddit.com/r/CryptoCurrency/comments/7ifzer/understanding_xbys_proofofsignature_posign)
+* [Wikipedia](https://xtrabytes.global/build/files/whitepaper.pdf)
 
 [Go to Index](#index)
 
@@ -446,10 +445,10 @@ PoSIGN consensus is achieved through the interactions between a system of real a
 The DAY smart contract has advanced minting capabilities and a halving mechanism to limit the total supply of DAY in the future. Every contributor in any phase of the token contribution period will receive a minting address called a TimeMint with a specific minting power called ChronoPower. ChronoPower ranges from 1% to 0.5% minting additional DAY in the respective TimeMint based on the TimeMint’s current balance of DAY. ChronoPower decays linearly among contributors based on their contribution order. The first contributor receives TimeMint0001 with the highest ChronoPower of 1% & the last TimeMint receives the lowest ChronoPower of 0.5%.
 
 ## Used in
-Chronologic https://chronologic.network/
+* [Chronologic](https://chronologic.network)
 
 ## Read more
-Whitepaper https://chronologic.network/uploads/Chronologic_Whitepaper.pdf
+[Wikipedia](https://chronologic.network/uploads/Chronologic_Whitepaper.pdf)
 
 [Go to Index](#index)
 
@@ -462,7 +461,7 @@ Proof of Existence is an online service that verifies the existence of computer 
 * DragonChain
 
 ## Read more
-* Wikipedia https://en.wikipedia.org/wiki/Proof_of_Existence
+* [Wikipedia](https://en.wikipedia.org/wiki/Proof_of_Existence)
 
 # Ouroboros
 A variation of Proof-of-stake(with rigorous security guarantees) used by Cardano.
@@ -471,7 +470,7 @@ A variation of Proof-of-stake(with rigorous security guarantees) used by Cardano
 * Cardano
 
 ## Read more
-- Whitepaper https://eprint.iacr.org/2016/889.pdf
+- [Wikipedia](https://eprint.iacr.org/2016/889.pdf)
 - [Ouroboros: A provably secure proof-of-stake blockchain protocol](https://pdfs.semanticscholar.org/1c14/549f7ba7d6a000d79a7d12255eb11113e6fa.pdf). Kiayias A, Russell A, David B, Oliynykov R. '16.
 
 [Go to Index](#index)
@@ -486,7 +485,7 @@ Permacoin proposed a modification to Bitcoin that repurposes its mining resource
 * [PermaCoin](https://www.cs.umd.edu/~elaine/docs/permacoin.pdf)
 
 ## Read more
-* Whitepaper https://eprint.iacr.org/2008/175.pdf
+* [Wikipedia](https://eprint.iacr.org/2008/175.pdf)
 
 [Go to Index](#index)
 
@@ -494,12 +493,12 @@ Permacoin proposed a modification to Bitcoin that repurposes its mining resource
 Combine Proof of Work component with a Proof of Stake. mining first begins in the traditional manner, with miners vying to be the first to solve a puzzle and claim their reward. The difference is that the blocks being mined do not contain transactions. They are simply templates with header information and the mining reward address. Once this nearly blank block is mined, the system switches to a proof of stake protocol. The header information is used to select a random group of validators to sign the block. These are coin holders (stakeholders) and the larger the stake a validator holds, the greater the chance they will be selected to sign the new block. Once all the chosen validators sign the block it becomes an actual part of the blockchain. If the block remains unsigned by some of the chosen validators after a given time, it is discarded as incomplete and the next winning block is used. Validators are once again chosen and this continues until a winning block is signed by all the chosen validators. The network fees are split between the winning miner and the validators who signed the block.
 
 ## Used in
-* Decred https://www.decred.org/
+* [Decred](https://www.decred.org)
 * Espers
-* Coinbureau https://www.coinbureau.com/blockchain/proof-of-activity-explained-hybrid-consensus-algorithm
+* [Coinbureau](https://www.coinbureau.com/blockchain/proof-of-activity-explained-hybrid-consensus-algorithm)
 
 ## Read more
-* Research Paper https://eprint.iacr.org/2014/452.pdf
+* [Research Paper](https://eprint.iacr.org/2014/452.pdf)
 
 [Go to Index](#index)
 
@@ -522,7 +521,7 @@ Proof-of-Processed-Payments (PoPP) is how Metal aims to distribute MTL to the ma
 metalpay
 
 ## Read more
-MetalPay https://support.metalpay.com/hc/en-us/articles/115000369474-What-is-PoPP-
+* [MetalPay](https://support.metalpay.com/hc/en-us/articles/115000369474-What-is-PoPP-)
 
 [Go to Index](#index)
 
@@ -551,7 +550,7 @@ Dynamic Proof of Location empowers a permissionless and autonomous network of ra
 The idea is that N (memory requirement) will always increase over time, rendering ASIC development unfeasible. A coin with an adaptive 'n' factor usually starts at '11' , and stating it is adaptive that means that over time usually specific to a future unix time stamp it will become '12' , '13'... As it increases the amount of memory necessary to 'mine' the coin increases....quickly.
 
 ## Used in
-* Vertcoin https://vertcoin.org/
+* [Vertcoin](https://vertcoin.org)
 * ExeCoin (EXE)
 * GPUcoin (GPUC)
 * ParallaxCoin (PLX)
@@ -569,7 +568,6 @@ Once a company proves reputation and passes verification, they may be voted into
 A company caught cheating would not only be risking its reputation. It would be risking its entire market cap and the reputation of
 the officers and shareholders of the company. It would have significantly more to lose than any one individual. 
 
-## 
 **Authorized Signers** Authorized signers are trusted nodes that create blocks, sign them, and distribute them to
 other nodes. A list of authorized signers will be maintained on the blockchain. Only authorized nodes can sign blocks and all blocks are verified that this is true by checking the signer is in the authorized list. The signing algorithm is essentially the same signature algorithm as PoW but with a different set of headers. PoW-specific headers will be removed and additional headers added to
 enable voting.
@@ -598,10 +596,10 @@ The consensus protocol ensures fairness and liveness by incentivizing the assign
 Each participant helps performing research by computations in Gridcoins network. The network average is similar to difficulty in PoW mining. As the network average rises it becomes harder to get the same magnitude so if you want to keep getting the same reward you would have to add more compute power if we have an environment of a rising network average. If the price rose significantly more compute power would come on board, raising the network average, making it harder to get the same reward, just like difficulty in PoW.
 
 ## Used in
-Gridcoin https://wiki.gridcoin.us/Proof-of-Research
+* [Gridcoin](https://wiki.gridcoin.us/Proof-of-Research)
 
 ## Read more
-Gridcoin https://wiki.gridcoin.us/Proof-of-Research
+* [Gridcoin](https://wiki.gridcoin.us/Proof-of-Research)
 
 [Go to Index](#index)
 
@@ -621,8 +619,8 @@ Keeping coins is not rewarded like in PoS
 * As with PoS, the principle is not suitable for distributing the first coins.
 
 ## Read more
-* HackerNoon https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f
-* bitcointalk.org https://bitcointalk.org/index.php?topic=704213.0
+* [HackerNoon](https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f)
+* [bitcointalk.org](https://bitcointalk.org/index.php?topic=704213.0)
 
 [Go to Index](#index)
 
@@ -630,9 +628,9 @@ Keeping coins is not rewarded like in PoS
 Proof-of-Weight is a broad classification of consensus algorithms based around the Algorand consensus model. The general idea is that where in PoS, your percentage of tokens owned in the network represents your probability of “discovering” the next block, in a PoWeight system, some other relatively weighted value is used. Concrete example: Filecoin’s Proof-of-Spacetime is weighted on how much IPFS data you’re storing. Other systems could include weights for things like Proof-of-Reputation.
 
 ## Used in
-* Algorand https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf
-* Filecoin https://filecoin.io/
-* Chia https://chia.network/
+* [Algorand](https://people.csail.mit.edu/nickolai/papers/gilad-algorand-eprint.pdf)
+* [Filecoin](https://filecoin.io)
+* [Chia](https://chia.network)
 
 ## Pros
 * Customizable; scalable
@@ -651,6 +649,8 @@ PoZ is an evolution of actual PoS, with the main difference that is capable of Z
 
 # Raft
  Raft is a consensus algorithm designed as an alternative to Paxos. It was meant to be more understandable than Paxos by means of separation of logic, but it is also formally proven safe and offers some additional features. Raft offers a generic way to distribute a state machine across a cluster of computing systems, ensuring that each node in the cluster agrees upon the same series of state transitions.
+
+You can see how Raft work by visiting this [guided and less interactive visualization](http://thesecretlivesofdata.com/raft/) and [Raft Visualization](https://raft.github.io/)
 
 ## Used in
 * IPFS Private Cluster
@@ -673,7 +673,6 @@ The timer is different for each node. Every participant in the network is assign
 ## Cons
 * Trust Intel, require dedicated hardware
 ## Read more
-* HackerNoon https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f
 
 [Go to Index](#index)
 
@@ -712,7 +711,7 @@ Check solana-whitepaper.pdf for more details how PoH is implemented and how it s
 ## Used in
 * Solana
 ## Read more
-Whitepaper https://solana.com/solana-whitepaper.pdf
+* [whitepaper](https://solana.com/solana-whitepaper.pdf)
 
 [Go to Index](#index)
 
@@ -755,7 +754,7 @@ You can still be a priority (over miner) if you perform frequent transactions an
 If you read or listen to podcasts on the Let's Talk Bitcoin website, you have just participated in PoP
 
 # Read more
-Example https://docs.google.com/document/d/1L7HmE8IupFiSrfqk9BgNa4Zg9XogqtScyQjTw0k2xCc/edit
+[whitepaper](https://docs.google.com/document/d/1L7HmE8IupFiSrfqk9BgNa4Zg9XogqtScyQjTw0k2xCc/edit)
 
 [Go to Index](#index)
 
@@ -764,7 +763,7 @@ Proof of activity is a hybrid approach that combines both proof of work and proo
 As in PoW, miners race to solve a cryptographic puzzle. Then the system switches to PoS.
 
 ## Used in
-* Decred https://www.decred.org/
+* [Decred](https://www.decred.org)
 
 ## Pros
 * Criticisms are the same as for both proof of work and proof of stake.
@@ -779,7 +778,7 @@ IOST introduced Servi as both a measurement of users’ contribution to the comm
 ## Used in
 * IOST
 ## Read more
-Whitepaper https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md#consensus-mechanism
+* [whitepaper](https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md#consensus-mechanism)
 
 [Go to Index](#index)
 
@@ -789,8 +788,8 @@ Rather than distributing presale tokens based on, say, how much users are contri
 It's a great way to essentially crowd-market your blockchain project by encouraging others to get the word out about it. it's about producing interesting, fun, informative content.
 
 ## Used in
-Quantstamp
-TomoCoin
+* Quantstamp
+* TomoCoin
 
 ## Pros
 * Implementing individual caps is very good step and can restrict whales from entering the public sale
@@ -808,7 +807,7 @@ Whitepaper https://github.com/iost-official/Documents/blob/master/Technical_Whit
 Earn token when user publish work to audience.
 
 ## Used in
-Doc https://docs.google.com/document/d/1VogMc11WOeWB_OrcsIGD_J7F02KZ0I5zlDYTma7FJkA/edit
+* [whitepaper](https://docs.google.com/document/d/1VogMc11WOeWB_OrcsIGD_J7F02KZ0I5zlDYTma7FJkA/edit)
 
 ## Read more
 * LTBcoin
@@ -819,7 +818,7 @@ Doc https://docs.google.com/document/d/1VogMc11WOeWB_OrcsIGD_J7F02KZ0I5zlDYTma7F
 E.g after PoV a month later when the performance of any work is compared against all the other work published during that week, user get an additional reward
 
 ## Used in 
-Doc https://docs.google.com/document/d/1HBbuN8rmrH22kXSYiDZaRv9aR7MVrI4FB8fSrSQ37tc/edit
+* [whitepaper](https://docs.google.com/document/d/1HBbuN8rmrH22kXSYiDZaRv9aR7MVrI4FB8fSrSQ37tc/edit)
 ## Read more
 * LTBcoin
 
@@ -841,7 +840,7 @@ Blocktime dependent rewards (~Reward halving every minute decrease in blocktime 
 * Verium
 
 ## Read more
-Wiki https://wiki.vericoin.info/
+* [whitepaper](https://wiki.vericoin.info)
 
 [Go to Index](#index)
 
@@ -864,7 +863,7 @@ Coin combining PoW and HiPoS
 3 consensus channels: Prime (CPU), Hashing (GPU), and Nexus Proof of Holding (nPOH)
 
 ## Used in
-* Nexus https://nexusearth.com/
+* [Nexus](https://nexusearth.com)
 
 ## Pros
 * Key signature scheme to keep an account’s public keys obscured even when making transactions (This is made possible by moving away from addresses based on public key hashes, and implementing a new system called Signature Chains).
@@ -873,7 +872,7 @@ Coin combining PoW and HiPoS
 * OnChain scalability Transaction processing is distributed across multiple channels working synergistically to increase transaction throughput as resources increase. Individual channels verify transactions, consolidate verified transactions into Merkle trees, and add finished blocks onto the blockchain. The Unified Time protocol enables transaction processing, trust locks, and block locks to be consistent throughout time. The potential of Nexus 3DC is limited only by node count and represents the most energy-efficient consensus system to date.
 
 ## Read more
-Whitepaper https://nexusearth.com/nexus-white-paper
+* [whitepaper](https://nexusearth.com/nexus-white-paper)
 
 [Go to Index](#index)
 
@@ -899,13 +898,14 @@ Delayed Proof of Work (dPoW) is a hybrid consensus method that allows one blockc
 the hashing power of a secondary blockchain. This is achieved through a group of notary nodes that add data from the first blockchain onto the second, which would then require both blockchains to be compromised to undermine the security of the first. The first to make use of this consensus method is Komodo, which is attached to the Bitcoin blockchain.
 
 ## Used in
-Komodo https://wiki.komodoplatform.com/wiki/Komodo
+* [Komodo](https://wiki.komodoplatform.com/wiki/Komodo)
 
 ## Pros
-Energy efficient
-Increased security
+* Energy efficient
+* Increased security
+
 ## Cons
-Limited to blockchain using PoW or PoS
+* Limited to blockchain using PoW or PoS
 
 ## Read more
 
@@ -919,7 +919,7 @@ Coin combining PoW and PoM and PoSII
 * Magi Coin
 
 ## Read more
-Github https://github.com/magi-project/m-Noblecoin
+* [Github](https://github.com/magi-project/m-Noblecoin)
 
 [Go to Index](#index)
 
@@ -935,9 +935,9 @@ Coin combining PoW and PoS and PoC
 B3 is the first coin to develop and implement Fundamental Nodes (FN). A Fundamental Node is similar to a regular masternode in terms of the service it provides to the network but the coins used to purchase a Fundamental Node are destroyed. This reduces the overall supply of the coin over time as more Fundamental Nodes are added to the network. Fundamental Nodes receive 60% of the block reward while those staking receive 40%.
 
 ## Used in
-b3coin https://b3coin.io/
+* [b3coin](https://b3coin.io)
 ## Read more
-Whitepaper https://b3coin.io/
+* [whitepaper](https://b3coin.io)
 
 [Go to Index](#index)
 
@@ -949,7 +949,7 @@ Whitepaper https://b3coin.io/
 HEAT
 
 ## Read more
-Whitepaper https://heatledger.com/HEATWhitepaper.pdf
+* [whitepaper](https://heatledger.com/HEATWhitepaper.pdf)
 
 [Go to Index](#index)
 
@@ -985,8 +985,8 @@ This is directed, asynchronous graph (DAG) representing each individual transact
 * Vulnerable (only 34% of the total hashing power required)
 
 ## Read more
-* iota1_4_3.pdf https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf
-* The Coordinator https://domschiener.gitbooks.io/iota-guide/content/chapter1/current-role-of-the-coordinator.html
+* [iota1_4_3.pdf](https://assets.ctfassets.net/r1dr6vzfxhev/2t4uxvsIqk0EUau6g2sw0g/45eae33637ca92f85dd9f4a3a218e1ec/iota1_4_3.pdf)
+* [The Coordinator](https://domschiener.gitbooks.io/iota-guide/content/chapter1/current-role-of-the-coordinator.html)
 
 [Go to Index](#index)
 
@@ -1039,9 +1039,10 @@ Nano use Proof of Work (PoW) to avoid spammers as there is no transaction fees o
 LFT is a continuation of Tendermint to improve BFT consensus algorithms, it is currently what ICON uses as its consensus algorithm. LFT reduces communication overhead by consolidating messages from the network
 
 ## Used in
-ICON
+* [ICON](http://icon.support/a-primer-to-lft-loop-fault-tolerance-consensus-algorithm)
+
 ## Read more
-ICON http://icon.support/a-primer-to-lft-loop-fault-tolerance-consensus-algorithm/
+* [ICON](http://icon.support/a-primer-to-lft-loop-fault-tolerance-consensus-algorithm)
 
 [Go to Index](#index)
 
@@ -1056,7 +1057,7 @@ ICON http://icon.support/a-primer-to-lft-loop-fault-tolerance-consensus-algorith
 * Flexible trust
 * Asymptotic security
 ## Read more
-Medium https://medium.com/@boscoin/dpos-mfba-c84bae2e21ae
+* [Medium](https://medium.com/@boscoin/dpos-mfba-c84bae2e21ae)
 
 [Go to Index](#index)
 
@@ -1095,7 +1096,7 @@ Hyperledger Fabric
 ## Cons
 Centralized/permissioned
 ## Read more
-* http://pmg.csail.mit.edu/papers/osdi99.pdf
+* [whitepaper](http://pmg.csail.mit.edu/papers/osdi99.pdf)
 
 [Go to Index](#index)
 
@@ -1107,7 +1108,7 @@ Centralized/permissioned
 * ByteBall  only verified nodes are allowed to be Validation nodes ([list of requirements](https://github.com/byteball/byteball-witness)). Users choose in transaction set of 12 Validating nodes. Validating nodes(Witnesses) receive transaction fees. [Whitepaper](https://byteball.org/Byteball.pdf)
 
 ## Read more
-* Neo implementation https://github.com/neo-project/docs/blob/master/en-us/index.md#neo-technology-implementation
+* [Neo implementation](https://github.com/neo-project/docs/blob/master/en-us/index.md#neo-technology-implementation)
 
 [Go to Index](#index)
 
@@ -1115,16 +1116,16 @@ Centralized/permissioned
 The classical problem in distributed computing that is usually explained with Byzantine generals.
 
 ## Used in
-* Hyperledger https://www.hyperledger.org/
-* Dispatch https://t.me/dispatchlabs
-* Ripple https://ripple.com/
+* [Hyperledger](https://www.hyperledger.org)
+* [Dispatch](https://t.me/dispatchlabs)
+* [Ripple](https://ripple.com)
 ## Pros
 * High throughput; low cost; scalable
 ## COns
 * Semi-trusted
 ## Read more
-* Whitepaper https://web.archive.org/web/20170205142845
-* Whitepaper http://lamport.azurewebsites.net/pubs/byz.pdf
+* [whitepaper](https://web.archive.org/web/20170205142845)
+* [whitepaper](http://lamport.azurewebsites.net/pubs/byz.pdf)
 
 [Go to Index](#index)
 
@@ -1147,9 +1148,9 @@ Similar to POI, the PoD selects the accounts with high influence.  All accounts 
  The magi's proof-of-work (PoW) protocol, in addition to required computational works to be done to deter denial of service attacks, is also a network-dependent rewarding model system. The mPoW rewards participants who solve complicated cryptographical questions not only to validate transactions but also to create new blocks and generate coins. The amout of coins generated are constantly monitored by the mPoW protocol and tuned on the basis of an attraction-repulsion model: 1) incremental rewarding to stimulate network activities during passive mining phase, and 2) decremental rewarding to mitigate redundant mining sources during agressive mining phase. mPoW can effectively govern the magi's network and limit it under a certain scale, enabling the general devices to be capable of mining magi.
 
 ## Used in
-* MAGI https://www.m-core.org/
+* [MAGI](https://www.m-core.org)
 ## Read more
-* Whitepaper https://arxiv.org/abs/1409.7948
+* [whitepaper](https://arxiv.org/abs/1409.7948)
 
 [Go to Index](#index)
 
@@ -1157,7 +1158,7 @@ Similar to POI, the PoD selects the accounts with high influence.  All accounts 
  Aims to achieve distributed consensus through operations in addition to mPoW. mPoS is designed such that it rejects potential attacks through accumulating a large amount of coins or offline staking time, either of which leads to security concerns. Similar to mPoW's operation, mPoS is constructed in accordance with the concept of the attraction-repulsion model. Magi hybridizes mPoW with mPoS, and integrate both consensus approaches in order to acquire benefits from the two mechanisms and create a more robust payment system.
 
 ## Used in
-MAGI https://www.m-core.org/
+* [MAGI](https://www.m-core.org)
 ## Read more
-Bitcointalk https://bitcointalk.org/index.php?topic=735170.msg9991269#msg9991269
+* [Bitcointalk](https://bitcointalk.org/index.php?topic=735170.msg9991269#msg9991269)
 
