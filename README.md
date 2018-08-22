@@ -217,7 +217,12 @@ TODO
 * BlackCoin 
 * Qtum 
 * In Future with Casper in Ethereum
-
+* [Tezos](https://www.tezos.com)
+** At the beginning of each cycle (2048 blocks), a random seed is derived from numbers that block miners chose and committed to in the penultimate cycle, and revealed in the last. 
+** Using this random seed, a follow the coin strategy (similar to follow-the-satoshi) is used to allocate mining rights and signing rights to stakeholders for the next cycle (the more coins (rolls) you have - the more your chance to be a miner/signer). 
+** Blocks are mined by a random stakeholder (the miner) and includes multiple signatures of the previous block provided by random stakeholders (the signers). 
+** Mining and signing both offer a small reward but also require making a one cycle safety deposit to be forfeited in the event of a double mining or double signing.
+** [Whitepaper](https://www.tezos.com/static/papers/white_paper.pdf)
 ## Pros
 * Cost efficient: speed, energy, hardware
 * The more people use the network and have coins, the more secure the network.
@@ -260,9 +265,16 @@ https://consensus.tokens-economy.com/glossary.html#index
 With DPoS blockchain consensus protocols, coin holders use their coin balances to elect delegates, called witnesses. These witnesses have the opportunity to stake blocks of new transactions and add them to the blockchain. Voting power is determined by cyberwealth. Those who have more coins or tokens will have a greater impact on the network that those with fewer.
 
 ## Used in
-Steemit https://steemit.com/@zanewithspoon
-EOS https://eos.io/
-BitShares https://bitshares.org/
+* [Steemit](https://steemit.com/@zanewithspoon)
+* [EOS](https://eos.io)
+** users who hold tokens on a blockchain adopting the EOS.IO software may select block producers (the more EOS tokens a stakeholder owns, the greater their voting power)
+** through a continuous approval voting system and anyone may choose to participate in block production and will be given an opportunity to produce blocks proportional to the total votes they have received relative to all other producers. 
+** At the start of each round 21 unique block producers are chosen. 
+** The top 20 by total approval are automatically chosen every round and the last producer is chosen proportional to their number of votes relative to other producers. 
+** Block should be confirmed by 2/3 or more of elected Block producers. 
+** Block Producer rewarded with Block rewards.
+** [whitepaper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md#transaction-confirmation)
+* [BitShares](https://bitshares.org)
 
 ## Pros
 * Cheap transactions
@@ -276,7 +288,7 @@ BitShares https://bitshares.org/
 * Partially centralized
 
 ## Read more
-* Wikipedia https://en.wikipedia.org/wiki/Delegated_proof-of-stake
+* [Wikipedia](https://en.wikipedia.org/wiki/Delegated_proof-of-stake)
 
 [Go to Index](#index)
 
@@ -291,8 +303,8 @@ Your chances to find a new block only depend on how many Token you have ( i.e. y
 you don’t need a lot of computing power to forge a new block
 
 ## Read more
-Medium1 https://medium.com/@wavesgo/explaining-waves-lpos-3a9f838cf167
-Medium2 https://blog.wavesplatform.com/waves-launches-balance-leasing-in-lite-client-14db9eac0377
+* [Medium1](https://medium.com/@wavesgo/explaining-waves-lpos-3a9f838cf167)
+* [Medium2](https://blog.wavesplatform.com/waves-launches-balance-leasing-in-lite-client-14db9eac0377)
 
 [Go to Index](#index)
 
