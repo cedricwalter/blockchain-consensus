@@ -92,8 +92,6 @@ Each consensus algorithm has its own application scenario. There is no absolute 
 
 For a transaction to be valid on most cryptocurrency networks, the transaction needs to collect a certain number of confirmations (often equals to an inclusion in a block of a blockchain) from the network. E.g 10 confirmations means to see a specific transaction in one block and 9 consecutive blocks.
 
-# Table of contents
-
 # Avalanche
 The core idea of Avalanche is metastability.
 
