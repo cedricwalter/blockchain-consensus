@@ -173,7 +173,7 @@ situation.
 ## Read more
 * [Vrenelium](www.vrenelium.ch)
 
-[Go to Index](#index)
+[>>> Go to Index](#index)
 
 # Proof of stake (PoS)
 The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. 
