@@ -14,6 +14,10 @@ More than 55 Blockchain Consensus described.
   * [Pros](#pros)
   * [Cons](#cons)
   * [Read more](#read-more)
+- [Proof of Meaningful Work (PoMW)](#proof-of-meaningful-work--pomw-)
+  * [Pros](#pros)
+  * [Cons](#cons)
+  * [Read more](#read-more) 
 - [Proof of stake (PoS)](#proof-of-stake--pos-)
   * [Used in](#used-in)
   * [Pros](#pros-1)
@@ -284,6 +288,20 @@ In cryptocurrency networks, “miners” are special nodes that perform the PoW 
 - [Cuckoo Cycle: a memory bound graph-theoretic proof-of-work](http://fc15.ifca.ai/preproceedings/bitcoin/paper_12.pdf). Tromp J. FC '15.
 - [PieceWork: Generalized Outsourcing Control for Proofs of Work](http://fc17.ifca.ai/bitcoin/papers/bitcoin17-final24.pdf). Daian P, Eyal I, Juels A, Sirer EG. FC '17.
 - [Permacoin: Repurposing bitcoin work for data preservation](http://ieeexplore.ieee.org/iel7/6954656/6956545/06956582.pdf). Miller A, Juels A, Shi E, Parno B, Katz J. Permacoin. S&P '14.
+
+# Proof of Meaningful Work (PoMW)
+While the basic idea, to protect the Blockchain by proving that a certain amount of computation was invested to create every single block, is worth being preserved, the current implementation, using purely artificial computational tasks (hashing), with the sole goal of burning “enough” energy, is much too wasteful to be used productively1 and scales
+very badly. SProof of Meaningful Work keep the good idea, but implement it using meaningful computation tasks, so that the energy invested in the proof of the miners’ computational strength is used for calculations that support public scientific research projects (e.g. medical research for cures, chemical research, astrophysical simulations).
+
+## Pros
+* Decrease wasted energy. The needed energy will be used for socially responsible projects in the fields of healthcare, science, ecological protection and more.
+
+## Cons
+* attack of more than 50% of the total computing power
+
+## Read more
+* [Vrenelium](www.vrenelium.ch)
+
 
 # Proof of stake (PoS)
 The proof-of-stake (PoS) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. 
