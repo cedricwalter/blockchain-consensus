@@ -593,8 +593,8 @@ With proof of burn, instead of pouring money into expensive computer equipment, 
 A user who gives up short term wealth proves that they are following the consensus mechanism and is rewarded with a lifetime privilege to mine the next block on the blockchain. Coins are sent to unspendable address
 
 ## Used in
-Slimcoin
-TGCoin (Third Generation Coin)
+* [Slimcoin](http://slimco.in) to get the right to write blocks Node should “burn” amount of coins. The more coins Node “burns” more chances it has to create blocks (for long period) -> Nodes address gets a score called Effective Burnt Coins that determines chance to find blocks. Block creator rewarded with block rewards. 
+* TGCoin (Third Generation Coin)
 
 ## Pros
 Keeping coins is not rewarded like in PoS
@@ -645,7 +645,11 @@ PoET is a consensus mechanism algorithm that is often used on the permissioned b
 The timer is different for each node. Every participant in the network is assigned a random amount of time to wait, and the first participant to finish waiting gets to commit the next block to the blockchain. Similar to pulling straws, but this time, the shortest stem in the stack wins the lottery.
 
 ## Used in
-* Hyperledger Sawtooth
+* [Hyperledger Sawtooth](https://sawtooth.hyperledger.org) Solve BFT Validating Nodes limitation and required intel’s SGX. PoET uses a random leader election model or a lottery based election model based on SGX, where the protocol randomly selects the next leader to finalize the block. Every validator requests a wait time from an enclave (a trusted function). 
+** The validator with the shortest wait time for a particular transaction block is elected the leader. 
+** The BlockPublisher is responsible for creating candidate blocks to extend the current chain. He takes direction from the consensus algorithm for when to create a block and when to publish a block. He creates, Finalizes, Signs Block and broadcast it 
+** Block Validators check block 
+** Block is created on top of blockchain.
 
 ## Pros
 * Node will rest, so more energy efficient
@@ -855,6 +859,9 @@ Whitepaper https://nexusearth.com/nexus-white-paper
 Delayed Proof of Work (dPoW) is a hybrid consensus method that allows one blockchain to take advantage of the security provided through the hashing power of a secondary blockchain. This is achieved through a group of notary nodes that add data from the first blockchain onto the second, which would then require both blockchains to be compromised to undermine the security of the first.
 
 Delayed Proof of Work (dPoW) is a hybrid consensus method that allows one blockchain to take advantage of the security provided through the hashing power of a secondary blockchain. This is achieved through a group of notary nodes that add data from the first blockchain onto the second, which would then require both blockchains to be compromised to undermine the security of the first. The first to make use of this consensus method is Komodo, which is attached to the Bitcoin blockchain.
+
+## Used in
+* [Komodo](https://komodoplatform.com) end-to-end blockchain solutions. DPoW consensus mechanism does not recognize The Longest Chain Rule to resolve a conflict in the network, instead the dPoW looks to backups it inserted previously into the chosen PoW blockchain. The process of inserting backups of Komodo transactions into a secure PoW is “notarization.” Notarisation is performed by the elected notary nodes. Roughly every ten minutes, the notary nodes perform a special block hash mined on the Komodo blockchain and take note of the overall Komodo blockchain “height”. The notary nodes process this specifc block so that their signatures are cryptographically included within the content of the notarized data. There are sixty-four “notary nodes” elected by a stake-weighted vote, where ownership of KMD represents stake in the election. They are a special type of blockchain miner, having certain features in their underlying code that enable them to maintain an effective and cost-efcient blockchain and they periodically receives the privilege to mine a block on “easy difculty.” [Whitepaper](https://komodoplatform.com/en/whitepaper/2018-02-14-Komodo-White-Paper-Full.pdf)
 
 ## pros
 * Energy efficient
@@ -1073,8 +1080,10 @@ Centralized/permissioned
 # Delegated Byzantine Fault Tolerance
  The dBFT is called the Delegated Byzantine Fault Tolerant, a Byzantine fault-tolerant consensus mechanism that enables large-scale participation in consensus through proxy voting. The holder of the NEO token can, by voting, pick the bookkeeper it supports. The selected group of bookkeepers, through BFT algorithm, reach a consensus and generate new blocks. Voting in the NEO network continues in real time, rather than in accordance with a fixed term.
 
-##Used in
+## sed in
 * Neo
+* ByteBall  only verified nodes are allowed to be Validation nodes ([list of requirements](https://github.com/byteball/byteball-witness)). Users choose in transaction set of 12 Validating nodes. Validating nodes(Witnesses) receive transaction fees. [Whitepaper](https://byteball.org/Byteball.pdf)
+
 ## Read more
 * Neo implementation https://github.com/neo-project/docs/blob/master/en-us/index.md#neo-technology-implementation
 
@@ -1096,6 +1105,21 @@ The classical problem in distributed computing that is usually explained with By
 * Whitepaper http://lamport.azurewebsites.net/pubs/byz.pdf
 
 [Go to Index](#index)
+
+# Proof of Devotion
+Similar to POI, the PoD selects the accounts with high influence.  All accounts are ranked according to their liquidity and propagation (Nebulas Rank).  
+
+## Algorithm
+** Top-ranked accounts are selected 
+** Chosen accounts pay deposit and are qualified as the blocks Validators (Validators Set is dynamic, changes in Set may occur after Epoch change.)
+** Algorithm pseudo-randomly chooses block Proposer 
+** After a new block is proposed, Validators Set (each Validator is charged a deposit) participate in a round of BFT-Style voting to verify block (1. Prepare stage -> 2. Commit Stage. Validators should have > 2/3 of total deposits to validate Block) 
+** Block is added. Block rewards : each Validator rewarded with 1 NAS.
+
+## Used in
+* Nebula
+** [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
+** [Github](https://github.com/nebulasio/wiki/wiki)
 
 # Magi's proof-of-work (mPoW)
  The magi's proof-of-work (PoW) protocol, in addition to required computational works to be done to deter denial of service attacks, is also a network-dependent rewarding model system. The mPoW rewards participants who solve complicated cryptographical questions not only to validate transactions but also to create new blocks and generate coins. The amout of coins generated are constantly monitored by the mPoW protocol and tuned on the basis of an attraction-repulsion model: 1) incremental rewarding to stimulate network activities during passive mining phase, and 2) decremental rewarding to mitigate redundant mining sources during agressive mining phase. mPoW can effectively govern the magi's network and limit it under a certain scale, enabling the general devices to be capable of mining magi.
