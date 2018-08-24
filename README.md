@@ -49,10 +49,10 @@ Donations
 - [Proof of Reputation (PoR)](#proof-of-reputation-por)
 - [Proof of Research (DPoR)](#proof-of-research-dpor)
 - [Proof of Retrievability (POR)](#proof-of-retrievability-por)
-- [Proof of Stake (PoS) / Proof of Disintegration (PoD)](#proof-of-stake--pos----proof-of-disintegration--pod-)
+- [Proof of Stake (PoS) / Proof of Disintegration (PoD)](#proof-of-stake--pos----proof-of-disintegration--pod)
 - [Proof of stake (PoS)](#proof-of-stake-pos)
 - [Proof of stake Casper (PoS Casper)](#proof-of-stake-pos-casper)
-- [Proof of stake Boo (PoS Boo)](#proof-of-stake-pos-boo
+- [Proof of stake Boo (PoS Boo)](#proof-of-stake-pos-boo)
 - [Proof of Stake Velocity](#proof-of-stake-velocity)
 - [Proof of Time](#proof-of-time)
 - [Proof of Value (PoV)](#proof-of-value-pov)
