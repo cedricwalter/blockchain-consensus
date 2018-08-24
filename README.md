@@ -528,6 +528,13 @@ Combine Proof of Work component with a Proof of Stake. mining first begins in th
 
 ## Used in
 * [Decred](https://www.decred.org)
+** Blocks are created about every 5 minutes. 
+** Nodes in the network looking for a solution with a known difficulty to create a block (PoW). 
+** Once the solution is found it is broadcast to the network. 
+** The network then verifies the solution. 
+** Stakeholders who have locked some DCR in return for a ticket (1 ticket = ability to cast 1 vote. Stakeholders must wait an average of 28 days (8,192 blocks) to vote their tickets) now have the chance to vote on the block (PoS). 
+** 5 tickets are chosen pseudo-randomly from the ticket pool and if at least 3 of 5 vote ‘yes’ the block is permanently added to the blockchain. 
+** Both miners and voters are compensated with DCR : PoS - 30% and PoW - 60% of about 30 new Decred issued with a block.  
 * Espers
 * [Coinbureau](https://www.coinbureau.com/blockchain/proof-of-activity-explained-hybrid-consensus-algorithm)
 
