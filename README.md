@@ -2,7 +2,7 @@
 
 # Blockchain Consensus Encyclopedia
 
-More than 58 Blockchain Consensus described.
+More than 60 Blockchain Consensus described.
 
 Donations
 * Ethereum [0xC23473B911e86dc614412b3341d1C206aBac6996](https://etherscan.io/address/0xC23473B911e86dc614412b3341d1C206aBac6996#)
