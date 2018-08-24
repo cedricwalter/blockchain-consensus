@@ -51,6 +51,7 @@ Donations
 - [Proof of Retrievability (POR)](#proof-of-retrievability-por)
 - [Proof of Stake (PoS) / Proof of Disintegration (PoD)](#proof-of-stake--pos----proof-of-disintegration--pod-)
 - [Proof of stake (PoS)](#proof-of-stake-pos)
+- [Proof of stake Boo (PoS Boo)](#proof-of-stake-pos-boo
 - [Proof of Stake Velocity](#proof-of-stake-velocity)
 - [Proof of Time](#proof-of-time)
 - [Proof of Value (PoV)](#proof-of-value-pov)
@@ -334,6 +335,19 @@ TPOS or Traditional Proof of stake is a form of the algorithm through which a cr
 XSN
 ## Pros
 * Payments through processing dealings counts mainly on coin holders instead of on miners.
+
+[>> Go to Index <<](#index)
+
+# Proof of stake Boo (PoS Boo)
+PoS Boo is a PoS scheme based on PoS Casper.Th Casper scheme improves the most on “POSv3” with the introduction of a risk factor for malicious stakers. The system is progressive in a way that makes it considerably difficult to execute attacks like the 51% attack; you would need a majority of all minted coins, and you will also face the potential to lose them
+all when launching such an attack. The finality is mainly determined by stake and risk factors,
+
+## Pros
+* hard to execute a attack successfully even with 51% of circulation, 
+* solves transaction censoring. With PoW, a block miner can “choose” not to mine a block containing certain addresses, thereby censoring that address from the network. Since block creators are chosen at random and validators are global with this PoS scheme, it is really hard to censor addresses from the network (with the added bonus that if you try to force the network, you will most likely lose your stake).
+
+## Used in
+* [SHIELD](http://www.shieldx.sh)
 
 [>> Go to Index <<](#index)
 
@@ -1164,3 +1178,12 @@ Similar to POI, the PoD selects the accounts with high influence.  All accounts 
 ## Read more
 * [Bitcointalk](https://bitcointalk.org/index.php?topic=735170.msg9991269#msg9991269)
 
+# Common Attacks
+
+## 51% attack
+In PoS, you would need a majority of all minted coins to conduct such an attack,
+In PoW, you would need a majority of amining power to conduct such an attack,
+
+
+## transaction censoring. 
+With PoW, a block miner can “choose” not to mine a block containing certain addresses, thereby censoring that address from the network. 
