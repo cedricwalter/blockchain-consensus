@@ -20,6 +20,7 @@ Donations
 - [Direct Acyclic Graph](#direct-acyclic-graph)
 - [Ethereum Proof of Authority](#ethereum-proof-of-authority)
 - [Federated Byzantine Agreement](#federated-byzantine-agreement)
+- [HoneyBadgerBFT](#honeybadgerbft)
 - [High Interest Proof of Stake (HiPoS)](#high-interest-proof-of-stake-hipos)
 - [Hybrid Proof of Work (HPoW)](#hybrid-proof-of-work-hpow)
 - [Leased Proof-of-Stake (LPoS)](#leased-proof-of-stake-lpos)
@@ -820,6 +821,16 @@ IOST introduced Servi as both a measurement of users’ contribution to the comm
 * IOST
 ## Read more
 * [whitepaper](https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md#consensus-mechanism)
+
+[>> Go to Index <<](#index)
+
+# HoneyBadgerBFT
+
+The surprising success of cryptocurrencies has led to a surge of interest in deploying large scale, highly robust, Byzantine fault tolerant (BFT) protocols for mission-critical applications, such as financial transactions. Although the conventional wisdom is to build atop a (weakly) synchronous protocol such as PBFT (or a variation thereof), such protocols rely critically on network timing assumptions, and only guarantee liveness when the network behaves as expected. We argue these protocols are ill-suited for this deployment scenario. We present an alternative, HoneyBadgerBFT, the first practical asynchronous BFT protocol, which guarantees liveness without making any timing assumptions. We base our solution on a novel atomic broadcast protocol that achieves optimal asymptotic efficiency. We present an implementation and experimental results to show our system can achieve throughput of tens of thousands of transactions per second, and scales to over a hundred nodes on a wide area network. We even conduct BFT experiments over Tor, without needing to tune any parameters. Unlike the alternatives, HoneyBadgerBFT simply does not care about the underlying network.
+
+## Read more
+* [link1](https://dl.acm.org/citation.cfm?id=2978399)
+* [link2](https://infoscience.epfl.ch/record/222858/files/199.pdf)
 
 [>> Go to Index <<](#index)
 
