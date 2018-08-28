@@ -2,7 +2,7 @@
 
 # Blockchain Consensus Encyclopedia
 
-More than 60 Blockchain Consensus described.
+More than 61 Blockchain Consensus described.
 
 Donations
 * Ethereum [0xC23473B911e86dc614412b3341d1C206aBac6996](https://etherscan.io/address/0xC23473B911e86dc614412b3341d1C206aBac6996#)
@@ -225,11 +225,11 @@ TODO
 * Qtum 
 * In Future with Casper in Ethereum
 * [Tezos](https://www.tezos.com)
-  ** At the beginning of each cycle (2048 blocks), a random seed is derived from numbers that block miners chose and committed to in the penultimate cycle, and revealed in the last. 
-  ** Using this random seed, a follow the coin strategy (similar to follow-the-satoshi) is used to allocate mining rights and signing rights to stakeholders for the next cycle (the more coins (rolls) you have - the more your chance to be a miner/signer). 
-  ** Blocks are mined by a random stakeholder (the miner) and includes multiple signatures of the previous block provided by random stakeholders (the signers). 
-  ** Mining and signing both offer a small reward but also require making a one cycle safety deposit to be forfeited in the event of a double mining or double signing.
-  ** [Whitepaper](https://www.tezos.com/static/papers/white_paper.pdf)
+  * At the beginning of each cycle (2048 blocks), a random seed is derived from numbers that block miners chose and committed to in the penultimate cycle, and revealed in the last. 
+  * Using this random seed, a follow the coin strategy (similar to follow-the-satoshi) is used to allocate mining rights and signing rights to stakeholders for the next cycle (the more coins (rolls) you have - the more your chance to be a miner/signer). 
+  * Blocks are mined by a random stakeholder (the miner) and includes multiple signatures of the previous block provided by random stakeholders (the signers). 
+  * Mining and signing both offer a small reward but also require making a one cycle safety deposit to be forfeited in the event of a double mining or double signing.
+  * [Whitepaper](https://www.tezos.com/static/papers/white_paper.pdf)
 ## Pros
 * Cost efficient: speed, energy, hardware
 * The more people use the network and have coins, the more secure the network.
@@ -293,13 +293,13 @@ With DPoS blockchain consensus protocols, coin holders use their coin balances t
 ## Used in
 * [Steemit](https://steemit.com/@zanewithspoon)
 * [EOS](https://eos.io)
-  ** users who hold tokens on a blockchain adopting the EOS.IO software may select block producers (the more EOS tokens a stakeholder owns, the greater their voting power)
-  ** through a continuous approval voting system and anyone may choose to participate in block production and will be given an opportunity to produce blocks proportional to the total votes they have received relative to all other producers. 
-  ** At the start of each round 21 unique block producers are chosen. 
-  ** The top 20 by total approval are automatically chosen every round and the last producer is chosen proportional to their number of votes relative to other producers. 
-  ** Block should be confirmed by 2/3 or more of elected Block producers. 
-  ** Block Producer rewarded with Block rewards.
-  ** [whitepaper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md#transaction-confirmation)
+  * users who hold tokens on a blockchain adopting the EOS.IO software may select block producers (the more EOS tokens a stakeholder owns, the greater their voting power)
+  * through a continuous approval voting system and anyone may choose to participate in block production and will be given an opportunity to produce blocks proportional to the total votes they have received relative to all other producers. 
+  * At the start of each round 21 unique block producers are chosen. 
+  * The top 20 by total approval are automatically chosen every round and the last producer is chosen proportional to their number of votes relative to other producers. 
+  * Block should be confirmed by 2/3 or more of elected Block producers. 
+  * Block Producer rewarded with Block rewards.
+  * [whitepaper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md#transaction-confirmation)
 * [BitShares](https://bitshares.org)
 
 ## Pros
@@ -529,13 +529,13 @@ Combine Proof of Work component with a Proof of Stake. mining first begins in th
 
 ## Used in
 * [Decred](https://www.decred.org)
-  ** Blocks are created about every 5 minutes. 
-  ** Nodes in the network looking for a solution with a known difficulty to create a block (PoW). 
-  ** Once the solution is found it is broadcast to the network. 
-  ** The network then verifies the solution. 
-  ** Stakeholders who have locked some DCR in return for a ticket (1 ticket = ability to cast 1 vote. Stakeholders must wait an average of 28 days (8,192 blocks) to vote their tickets) now have the chance to vote on the block (PoS). 
-  ** 5 tickets are chosen pseudo-randomly from the ticket pool and if at least 3 of 5 vote ‘yes’ the block is permanently added to the blockchain. 
-  ** Both miners and voters are compensated with DCR : PoS - 30% and PoW - 60% of about 30 new Decred issued with a block.  
+  * Blocks are created about every 5 minutes. 
+  * Nodes in the network looking for a solution with a known difficulty to create a block (PoW). 
+  * Once the solution is found it is broadcast to the network. 
+  * The network then verifies the solution. 
+  * Stakeholders who have locked some DCR in return for a ticket (1 ticket = ability to cast 1 vote. Stakeholders must wait an average of 28 days (8,192 blocks) to vote their tickets) now have the chance to vote on the block (PoS). 
+  * 5 tickets are chosen pseudo-randomly from the ticket pool and if at least 3 of 5 vote ‘yes’ the block is permanently added to the blockchain. 
+  * Both miners and voters are compensated with DCR : PoS - 30% and PoW - 60% of about 30 new Decred issued with a block.  
 * Espers
 * [Coinbureau](https://www.coinbureau.com/blockchain/proof-of-activity-explained-hybrid-consensus-algorithm)
 
@@ -705,10 +705,10 @@ The timer is different for each node. Every participant in the network is assign
 
 ## Used in
 * [Hyperledger Sawtooth](https://sawtooth.hyperledger.org) Solve BFT Validating Nodes limitation and required intel’s SGX. PoET uses a random leader election model or a lottery based election model based on SGX, where the protocol randomly selects the next leader to finalize the block. Every validator requests a wait time from an enclave (a trusted function). 
-  ** The validator with the shortest wait time for a particular transaction block is elected the leader. 
-  ** The BlockPublisher is responsible for creating candidate blocks to extend the current chain. He takes direction from the consensus algorithm for when to create a block and when to publish a block. He creates, Finalizes, Signs Block and broadcast it 
-  ** Block Validators check block 
-  ** Block is created on top of blockchain.
+  * The validator with the shortest wait time for a particular transaction block is elected the leader. 
+  * The BlockPublisher is responsible for creating candidate blocks to extend the current chain. He takes direction from the consensus algorithm for when to create a block and when to publish a block. He creates, Finalizes, Signs Block and broadcast it 
+  * Block Validators check block 
+  * Block is created on top of blockchain.
 
 ## Pros
 * Node will rest, so more energy efficient
@@ -762,11 +762,11 @@ Proof of Stake Velocity (PoSV) is proposed as an alternative to Proof of Work (P
 
 ## Used in
 * [Reddcoin](https://www.reddcoin.com)
-  ** Not linear coin-aging function (new coins gain weight quickly, and old coins gain weight increasingly slowly) to encourage Nodes Activity. 
-  ** Node with most coin age weight have a bigger chance to create block. 
-  ** To create block Node should calculate right hash. Block reward 
-  ** Interest on the weighted age of coins/ 5% annual interest in PoSV phase.
-  ** [whitepaper](https://www.reddcoin.com/papers/PoSV.pdf)
+  * Not linear coin-aging function (new coins gain weight quickly, and old coins gain weight increasingly slowly) to encourage Nodes Activity. 
+  * Node with most coin age weight have a bigger chance to create block. 
+  * To create block Node should calculate right hash. Block reward 
+  * Interest on the weighted age of coins/ 5% annual interest in PoSV phase.
+  * [whitepaper](https://www.reddcoin.com/papers/PoSV.pdf)
 
 ## Read more
 
@@ -779,11 +779,11 @@ Productive network activity, not just the number of coins accumulated, should be
 
 ## Used in
 * New Economy Movement (NEM) Only accounts that have min 10k vested coins are eligible to harvest (create a block). Accounts with higher importance scores have higher probabilities of harvesting a block. The higher amount of vested coins, the higher the account’s Importance score. And the higher amount of transactions that satisfy following conditions: 
-  ** transactions sum min 1k coins, 
-  ** transactions made within last 30 days, 
-  ** recipient  have 10k vested coins too, 
-  ** the higher account’s Important score. Harvester is rewarded with fees for the transactions in the block. 
-  ** A new block is created approx. every 65 sec.
+  * transactions sum min 1k coins, 
+  * transactions made within last 30 days, 
+  * recipient  have 10k vested coins too, 
+  * the higher account’s Important score. Harvester is rewarded with fees for the transactions in the block. 
+  * A new block is created approx. every 65 sec.
 [whitepaper](https://nem.io/wp-content/themes/nem/files/NEM_techRef.pdf) - [link1](https://nem.io/investors/harvesting-and-poi/#proof-of-importance)
 
 ## Pros
@@ -1119,15 +1119,15 @@ The general idea is that every Byzantine general, responsible for their own chai
 ## Used in
 * Stellar - similar to Ripple but with key difference - quorum slice. [link1](https://www.stellar.org/papers/stellar-consensus-protocol.pdf) - [link2](https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/) - [link3](https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949)
 * Ripple
-  ** Each node receives transaction from external applications 
-  ** Each Node forms public list of all valid (not included into last ledger (=block)) transactions aka (Candidate Set) 
-  ** Nodes merge its candidate set with UNLs(Unique Node List) candidate sets and vote on the veracity of all transactions (1st round of consensus) 
-  ** all transactions that received at least 50% votes are passed on the next round (many rounds may take place) 
-  ** final round of consensus requires that min 80% of Nodes UNL agreeing on transactions. It means that at least 80% of Validating nodes should have same Candidate SET of transactions 
-  ** after that each Validating node computes a new ledger (=block) with all transactions (with 80% UNL agreement) and calculate ledger hash, signs and broadcasts 
-  ** All Validating nodes compare their ledgers hash 
-  ** Nodes of the network recognize a ledger instance as validated when a 80% of the peers have signed and broadcast the same validation hash. 
-  ** Process repeats. Ledger creation process lasts 5 sec(?). 
+  * Each node receives transaction from external applications 
+  * Each Node forms public list of all valid (not included into last ledger (=block)) transactions aka (Candidate Set) 
+  * Nodes merge its candidate set with UNLs(Unique Node List) candidate sets and vote on the veracity of all transactions (1st round of consensus) 
+  * all transactions that received at least 50% votes are passed on the next round (many rounds may take place) 
+  * final round of consensus requires that min 80% of Nodes UNL agreeing on transactions. It means that at least 80% of Validating nodes should have same Candidate SET of transactions 
+  * after that each Validating node computes a new ledger (=block) with all transactions (with 80% UNL agreement) and calculate ledger hash, signs and broadcasts 
+  * All Validating nodes compare their ledgers hash 
+  * Nodes of the network recognize a ledger instance as validated when a 80% of the peers have signed and broadcast the same validation hash. 
+  * Process repeats. Ledger creation process lasts 5 sec(?). 
 Each transaction includes transaction fee (min 0,00001 XRP) which is destroyed. No block rewards.  
 [whitepaper](https://ripple.com/files/ripple_consensus_whitepaper.pdf)
 
@@ -1185,16 +1185,16 @@ The classical problem in distributed computing that is usually explained with By
 Similar to POI, the PoD selects the accounts with high influence.  All accounts are ranked according to their liquidity and propagation (Nebulas Rank).  
 
 ## Algorithm
-  ** Top-ranked accounts are selected 
-  ** Chosen accounts pay deposit and are qualified as the blocks Validators (Validators Set is dynamic, changes in Set may occur after Epoch change.)
-  ** Algorithm pseudo-randomly chooses block Proposer 
-  ** After a new block is proposed, Validators Set (each Validator is charged a deposit) participate in a round of BFT-Style voting to verify block (1. Prepare stage -> 2. Commit Stage. Validators should have > 2/3 of total deposits to validate Block) 
-  ** Block is added. Block rewards : each Validator rewarded with 1 NAS.
+  * Top-ranked accounts are selected 
+  * Chosen accounts pay deposit and are qualified as the blocks Validators (Validators Set is dynamic, changes in Set may occur after Epoch change.)
+  * Algorithm pseudo-randomly chooses block Proposer 
+  * After a new block is proposed, Validators Set (each Validator is charged a deposit) participate in a round of BFT-Style voting to verify block (1. Prepare stage -> 2. Commit Stage. Validators should have > 2/3 of total deposits to validate Block) 
+  * Block is added. Block rewards : each Validator rewarded with 1 NAS.
 
 ## Used in
 * Nebula
-  ** [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
-  ** [Github](https://github.com/nebulasio/wiki/wiki)
+  * [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
+  * [Github](https://github.com/nebulasio/wiki/wiki)
 
 [>> Go to Index <<](#index)
 
