@@ -64,6 +64,7 @@ Donations
 - [Proof of Zero (PoZ)](#proof-of-zero-poz)
 - [Proof-of-authority (PoA)](#proof-of-authority-poa)
 - [Proof-of-Proof (PoP)](#proof-of-proof-pop)
+- [Proof-of-Play (PoP)](#proof-of-play)
 - [Proof-of-Signature (PoSign)](#proof-of-signature--posign)
 - [Proof-of-space (PoC)](#proof-of-space-poc)
 - [Proof-of-Stake (POS) / Proof-of-Presence (PoP)](#proof-of-stake--pos----proof-of-presence-pop)
@@ -799,6 +800,33 @@ If you read or listen to podcasts on the Let's Talk Bitcoin website, you have ju
 [whitepaper](https://docs.google.com/document/d/1L7HmE8IupFiSrfqk9BgNa4Zg9XogqtScyQjTw0k2xCc/edit)
 
 [>> Go to Index <<](#index)
+
+# Proof of Play
+In the game, players can place a Laser Generator building on their base that will offer them an amount of LaserChain tokens every time they click the collect button. Players can place more than one Laser Generator and upgrade the level of each building to increase the output per hour. The amount given will scale depending on how many players are currently playing. The difficulty formula used is similar to Bitcoin’s algorithm that scales up the complexity of finding a block depending on the number of miners in total.
+
+Another way to obtain LaserChain coins in the game is to attack other players. When you
+assault a players base and win the battle, you can take a percentage of the coins they currently
+hold in their base. Players are incentivized to keep coins in the base, as they receive a bonus
+collection amount for each coin they keep in the base similar to proof of stake. Players can
+remove coins from their base at any time and store them in their Account or an outside wallet to
+prevent them from being taken by another player, however these transactions take time.
+ 
+Players can also obtain LaserChain by completing the randomly generated daily quests that
+require the series of tasks to be performed to get the reward. This design is resistant to
+automation and will give the players a human based proof of work scheme that will deliver a
+reward and keep the value of that reward high.
+
+
+## Used in
+*[Laserchain (LSC)](https://www.laserchain.io) Players can trade with one another on the public blockchain, give their friends tokens, or trade them on various exchanges. LaserChain is built on the WAVES, and thus it has access to the WAVES Decentralized Exchange (DEX).
+
+[whitepaper](https://laserchain.io/LaserChain_WhitePaper.pdf)  
+
+## Pros
+Does not require large amounts of energy as in tradition POW algorithms.
+## Read more
+
+[>> Go to Index <<](#index) 
 
 # Proof Of Activity
 Proof of activity is a hybrid approach that combines both proof of work and proof of stake.
