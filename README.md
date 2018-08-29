@@ -26,7 +26,6 @@ Donations
 - [Leased Proof-of-Stake (LPoS)](#leased-proof-of-stake-lpos)
 - [Leasing Proof of Stake (PoS/LPoS)](#leasing-proof-of-stake--pos-lpos)
 - [LFT](#lft)
-- [Limited Confidence Proof-of-Activity](#limited-confidence-proof-of-activity)
 - [Magi's proof-of-stake (mPoS)](#magi-s-proof-of-stake-mpos)
 - [Magi's proof-of-work (mPoW)](#magi-s-proof-of-work-mpow)
 - [Modified Federated Byzantine Agreement (mFBA)](#modified-federated-byzantine-agreement-mfba)
@@ -34,6 +33,7 @@ Donations
 - [PoET](#poet)
 - [Practical Byzantine Fault Tolerance](#practical-byzantine-fault-tolerance)
 - [Proof Of Activity](#proof-of-activity)
+- [Limited Confidence Proof-of-Activity (LCPoA)](#limited-confidence-proof-of-activity-LCPoA)
 - [Proof of Believability](#proof-of-believability)
 - [Proof of Burn (PoB)](#proof-of-burn-pob)
 - [Proof of Care (PoC)](#proof-of-care-poc)
@@ -524,7 +524,7 @@ Permacoin proposed a modification to Bitcoin that repurposes its mining resource
 
 [>> Go to Index <<](#index)
 
-# Limited Confidence Proof-of-Activity
+# Proof-of-Activity
 Combine Proof of Work component with a Proof of Stake. mining first begins in the traditional manner, with miners vying to be the first to solve a puzzle and claim their reward. The difference is that the blocks being mined do not contain transactions. They are simply templates with header information and the mining reward address. Once this nearly blank block is mined, the system switches to a proof of stake protocol. The header information is used to select a random group of validators to sign the block. These are coin holders (stakeholders) and the larger the stake a validator holds, the greater the chance they will be selected to sign the new block. Once all the chosen validators sign the block it becomes an actual part of the blockchain. If the block remains unsigned by some of the chosen validators after a given time, it is discarded as incomplete and the next winning block is used. Validators are once again chosen and this continues until a winning block is signed by all the chosen validators. The network fees are split between the winning miner and the validators who signed the block.
 
 ## Used in
@@ -801,16 +801,41 @@ If you read or listen to podcasts on the Let's Talk Bitcoin website, you have ju
 [>> Go to Index <<](#index)
 
 # Proof Of Activity
-Proof of activity is a hybrid approach that combines both proof of work and proof of stake.
-As in PoW, miners race to solve a cryptographic puzzle. Then the system switches to PoS.
+Combine Proof of Work component with a Proof of Stake. 
+
+## algorithm
+* Mining first begins in the traditional manner, with miners vying to be the first to solve a puzzle and claim their reward. 
+* The difference is that the blocks being mined do not contain transactions. 
+* They are simply templates with header information and the mining reward address. 
+* Once this nearly blank block is mined, the system switches to a proof of stake protocol. 
+* The header information is used to select a random group of validators to sign the block. 
+* These are coin holders (stakeholders) and the larger the stake a validator holds, the greater the chance they will be selected to sign the new block. 
+* Once all the chosen validators sign the block it becomes an actual part of the blockchain. 
+* If the block remains unsigned by some of the chosen validators after a given time, it is discarded as incomplete and the next winning block is used. 
+* Validators are once again chosen and this continues until a winning block is signed by all the chosen validators. 
+* The network fees are split between the winning miner and the validators who signed the block.
 
 ## Used in
-* [Decred](https://www.decred.org)
 
 ## Pros
 * Criticisms are the same as for both proof of work and proof of stake.
 
 ## Read more
+
+[>> Go to Index <<](#index)
+
+# Limited Confidence Proof-of-Activity (LCPoA)
+
+Limited Confidence Proof-of-Activity (LCPoA) - a method for blockchain protection, based on the modification of the Proof-of-Work algorithm, in the direction of reducing the consumption of computational resources for the block generating.
+ When using this method, the algorithm for block generating does not depend on the computing power. As a proof of work (or activity) the algorithm checks the time spent on the solution.
+
+## Used in
+* izzz.io https://izzz.io/
+* BitCoen https://bitcoen.io
+
+## Read more
+* Wiki https://en.bitcoinwiki.org/wiki/Limited_Confidence_Proof-of-Activity
+* Medium https://medium.com/@izzzio/lcpoa-universal-as-pow-economical-as-pos-c26f6ba90017
 
 [>> Go to Index <<](#index)
 
@@ -1222,6 +1247,6 @@ Similar to POI, the PoD selects the accounts with high influence.  All accounts 
 In PoS, you would need a majority of all minted coins to conduct such an attack,
 In PoW, you would need a majority of amining power to conduct such an attack,
 
-
 ## transaction censoring. 
 With PoW, a block miner can “choose” not to mine a block containing certain addresses, thereby censoring that address from the network. 
+
