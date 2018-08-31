@@ -63,6 +63,7 @@ Donations
 - [Proof of Work (PoW)](#proof-of-work-pow)
 - [Proof of Zero (PoZ)](#proof-of-zero-poz)
 - [Proof-of-authority (PoA)](#proof-of-authority-poa)
+- [Proof of Ambassador (PoA)](#proof-of-ambassador-poa)
 - [Proof-of-Proof (PoP)](#proof-of-proof-pop)
 - [Proof-of-Signature (PoSign)](#proof-of-signature--posign)
 - [Proof-of-space (PoC)](#proof-of-space-poc)
@@ -437,10 +438,24 @@ Azure features a built-in decentralized application (DApp or dApp) called the â€
 ## Used in
 * [Ethereum on Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-ethereum?tab=Overview)
 
+[>> Go to Index <<](#index)
+
+# Proof of Ambassador (PoA)
+The Proof of Ambassador protocol, introduced by the Bitcoin Origin project, builds on Proof of Authority by combining it with Proof of Stake elements. It works by assigning a reputation score to validators who are publicly identifiable, known as Ambassadors.
+Ambassadors are chosen each month by users who stake their coins to cast votes. The consensus is based on pre-approved authoritative Ambassadors with a Proof of Authority approach. 
+Reputation is assigned to Ambassadors based on several criteria including continual predetermined set of activities like promotion and campaigning of the Bitcoin Origin project.
+
+## Used in
+* Bitcoin Origin
+
+[>> Go to Index <<](#index)
+
 # Proof of Ownership
 This technique can be used by artists or businesses to certify the integrity, date of publication and ownership of their creations or contracts. A Proof of Ownership is always attached to a piece of data using cryptographic functions. This makes it impossible to alter the data after certification. If the content is modified, even by a single bit, then the whole certificate becomes invalid.
 
 Only the people with the private key associated with the signature can prove they are the owner.
+
+[>> Go to Index <<](#index)
 
 # Proof-of-space (PoC)
 (PoSpace), also called proof-of-capacity (PoC) is a means of showing that one has a legitimate interest in a service (such as sending an email) by allocating a non-trivial amount of memory or disk space to solve a challenge presented by the service provider.
