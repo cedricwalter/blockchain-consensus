@@ -4,7 +4,7 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 
 You can see how Raft work by visiting this [guided and less interactive visualization](http://thesecretlivesofdata.com/raft/) and [Raft Visualization](https://raft.github.io/)
 
-#### Used in
+## Used in
 
 * IPFS Private Cluster
 * Quorum

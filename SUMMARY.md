@@ -42,4 +42,13 @@
 * [Proof of Importance](proof-of-importance.md)
 * [Proof of Participation \(PoP\)](proof-of-participation-pop.md)
 * [Proof Of Activity](proof-of-activity-1.md)
+* [Limited Confidence Proof-of-Activity \(LCPoA\)](limited-confidence-proof-of-activity-lcpoa.md)
+* [Proof of Believability](proof-of-believability.md)
+* [HoneyBadgerBFT](honeybadgerbft.md)
+* [Proof of Care \(PoC\)](proof-of-care-poc.md)
+* [Proof of Value \(PoV\)](proof-of-value-pov.md)
+* [Proof of Quality \(PoQ\)](proof-of-quality-poq.md)
+* [Proof-of-work time \(PoWT\)](proof-of-work-time-powt.md)
+* [Serialization of Proof-of-work Events: Confirming Transactions via Recursive Elections](serialization-of-proof-of-work-events-confirming-transactions-via-recursive-elections.md)
+* [Proof of Work \(PoW\) / Nexus Proof of State \(nPoS\) or Nexus Proof of Holding \(nPOH\)](proof-of-work-pow-nexus-proof-of-state-npos-or-nexus-proof-of-holding-npoh.md)
 

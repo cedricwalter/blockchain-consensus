@@ -4,7 +4,7 @@ Instead of trusting the timestamp on the transaction, you could prove that the t
 
 Proof of History is a sequence of computation that can provide a way to cryptographically verify passage of time between two events. It uses a cryptographically secure function written so that output cannot be predicted from the input, and must be completely executed to generate the output. The function is run in a sequence on a single core, its previous output as the current input, periodically recording the current output, and how many times its been called. The output can then be re-computed and verified by external computers in parallel by checking each sequence segment on a separate core. Data can be timestamped into this sequence by appending the data \(or a hash of some data\) into the state of the function. The recording of the state, index and data as it was appended into the sequences provides a timestamp that can guarantee that the data was created sometime before the next hash was generated in the sequence. This design also supports horizontal scaling as multiple generators can synchronize amongst each other by mixing their state into each others sequences.
 
-#### Description
+## Description
 
 The system is designed to work as follows. With a cryptographic hash function, whose output cannot be predicted without running the function \(e.g. sha256, ripemd, etc.\), run the function from some random starting value and take its output and pass it as the input into the same function again. Record the number of times the function has been called and the output at each call. The starting random value chosen could be any string, like the headline of the New York times for the day.
 
@@ -22,7 +22,7 @@ In the example in Figure 2, hash 62f51643c1 was produced on count 510144806912 a
 
 Check solana-whitepaper.pdf for more details how PoH is implemented and how it scale [https://raw.github.com/cedricwalter/blockchain-consensus/master/whitepaper/PoH-Solana-whitepaper.pdf](https://raw.github.com/cedricwalter/blockchain-consensus/master/whitepaper/PoH-Solana-whitepaper.pdf)
 
-#### Used in
+## Used in
 
 * Solana
 

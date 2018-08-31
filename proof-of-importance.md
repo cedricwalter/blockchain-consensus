@@ -4,7 +4,7 @@ NEM’s consensus network depends not only the number of coins but on the possib
 
 Productive network activity, not just the number of coins accumulated, should be rewarded. Participants who frequently send and receive transactions are more likely to find blocks.
 
-#### Used in
+## Used in
 
 * New Economy Movement \(NEM\) Only accounts that have min 10k vested coins are eligible to harvest \(create a block\). Accounts with higher importance scores have higher probabilities of harvesting a block. The higher amount of vested coins, the higher the account’s Importance score. And the higher amount of transactions that satisfy following conditions:
   * transactions sum min 1k coins, 
@@ -15,9 +15,9 @@ Productive network activity, not just the number of coins accumulated, should be
 
     [whitepaper](https://nem.io/wp-content/themes/nem/files/NEM_techRef.pdf) - [link1](https://nem.io/investors/harvesting-and-poi/#proof-of-importance)
 
-#### Pros
+## Pros
 
 You can still be a priority \(over miner\) if you perform frequent transactions and connections that are good for the ecosystem.
 
-#### Read more
+## Read more
 

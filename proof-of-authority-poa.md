@@ -7,17 +7,17 @@ This is considered more robust than PoS, as:
 * In PoS, while a stake between two parties may be even, it does not take into account each party’s total holdings. This means that incentives can be unbalanced.
 * PoW uses an enormous amount of computing power, which, in itself lowers incentive
 
-#### Establishing authority
+## Establishing authority
 
 The three main conditions that must be fulfilled for a validator to be established are: 1. Identity must be formally verified on-chain, with a possibility to cross-check the information in a publicly available domain 2. Eligibility must be difficult to obtain, to make the right to validate the blocks earned and valued. \(Example: potential validators are required to obtain public notary license\) 3. There must be complete uniformity in the checks and procedures for establishing an authority
 
-#### Used in
+## Used in
 
 * [POA.Network](https://poa.network)
 * [Ethereum Kovan](https://kovan.etherscan.io)
 * [testnetRinkeby](https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc)
 
-#### Pros
+## Pros
 
 * High throughput; scalable
 * No mining mechanism like in PoW, PoA uses identity as the sole verification of the authority to validate,
@@ -28,7 +28,7 @@ The three main conditions that must be fulfilled for a validator to be establish
 
 * By identifying validators it is a centralized system
 
-#### Read more
+## Read more
 
 [Wikipedia](https://en.wikipedia.org/wiki/Proof-of-authority)
 

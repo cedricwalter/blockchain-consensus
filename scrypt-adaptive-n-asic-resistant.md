@@ -4,7 +4,7 @@ The idea behind the algorithm is that even if the memory requirements of the Scr
 
 The idea is that N \(memory requirement\) will always increase over time, rendering ASIC development unfeasible. A coin with an adaptive 'n' factor usually starts at '11' , and stating it is adaptive that means that over time usually specific to a future unix time stamp it will become '12' , '13'... As it increases the amount of memory necessary to 'mine' the coin increases....quickly.
 
-#### Used in
+## Used in
 
 * [Vertcoin](https://vertcoin.org)
 * ExeCoin \(EXE\)

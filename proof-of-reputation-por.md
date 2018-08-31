@@ -12,21 +12,21 @@ A company caught cheating would not only be risking its reputation. It would be 
 
 The consensus protocol ensures fairness and liveness by incentivizing the assigned signer of a block to perform the signing but also allowing other blocks to sign if the assigned signer is unavailable. The assigned signer for a block is determined by a round-robin lookup of the authorized signer list. If the assigned signer doesn’t respond then then other signers can sign at a lower block difficulty level.
 
-#### Pros
+## Pros
 
 * For private, permissioned blockchains.
 * Fast since no PoW needed
 
-#### Cons
+## Cons
 
 * Only for private, permissioned blockchains.
 * Subject to 51% attack like PoW, but more unlikely that spo many entities in the network colludes.
 
-#### Used by
+## Used by
 
 * [GoChain](https://gochain.io/) that support smart contracts
 
-#### Read more
+## Read more
 
 [Medium](https://medium.com/gochain/proof-of-reputation-e37432420712)
 

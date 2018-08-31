@@ -4,7 +4,7 @@ PoET is a consensus mechanism algorithm that is often used on the permissioned b
 
 The timer is different for each node. Every participant in the network is assigned a random amount of time to wait, and the first participant to finish waiting gets to commit the next block to the blockchain. Similar to pulling straws, but this time, the shortest stem in the stack wins the lottery.
 
-#### Used in
+## Used in
 
 * [Hyperledger Sawtooth](https://sawtooth.hyperledger.org) Solve BFT Validating Nodes limitation and required intel’s SGX. PoET uses a random leader election model or a lottery based election model based on SGX, where the protocol randomly selects the next leader to finalize the block. Every validator requests a wait time from an enclave \(a trusted function\). 
   * The validator with the shortest wait time for a particular transaction block is elected the leader. 
@@ -12,7 +12,7 @@ The timer is different for each node. Every participant in the network is assign
   * Block Validators check block 
   * Block is created on top of blockchain.
 
-#### Pros
+## Pros
 
 * Node will rest, so more energy efficient
 

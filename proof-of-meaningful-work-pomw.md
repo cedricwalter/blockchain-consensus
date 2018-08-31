@@ -6,15 +6,15 @@ Here below combined with PoS so the ratio of PoS to PoMW can be adjusted continu
 
 ![ProofOfMeaningfulWorkWithPoS.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/ProofOfMeaningfulWorkWithPoS.png)
 
-#### Pros
+## Pros
 
 * Decrease wasted energy. The needed energy will be used for socially responsible projects in the fields of healthcare, science, ecological protection and more.
 
-#### Cons
+## Cons
 
 * attack of more than 50% of the total computing power
 
-#### Read more
+## Read more
 
 * [Vrenelium](https://github.com/cedricwalter/blockchain-consensus/tree/8ffd7692a60ac9707f399aec3f04b150169c6c8d/www.vrenelium.ch)
 

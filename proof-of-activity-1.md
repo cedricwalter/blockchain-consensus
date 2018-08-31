@@ -2,7 +2,7 @@
 
 Combine Proof of Work component with a Proof of Stake.
 
-#### algorithm
+## algorithm
 
 * Mining first begins in the traditional manner, with miners vying to be the first to solve a puzzle and claim their reward. 
 * The difference is that the blocks being mined do not contain transactions. 
@@ -15,11 +15,11 @@ Combine Proof of Work component with a Proof of Stake.
 * Validators are once again chosen and this continues until a winning block is signed by all the chosen validators. 
 * The network fees are split between the winning miner and the validators who signed the block.
 
-#### Used in
+## Used in
 
-#### Pros
+## Pros
 
 * Criticisms are the same as for both proof of work and proof of stake.
 
-#### Read more
+## Read more
 

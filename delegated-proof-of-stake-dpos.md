@@ -4,7 +4,7 @@ DPoS is a twist on Proof of Stake consensus that relies upon a group of delegate
 
 With DPoS blockchain consensus protocols, coin holders use their coin balances to elect delegates, called witnesses. These witnesses have the opportunity to stake blocks of new transactions and add them to the blockchain. Voting power is determined by cyberwealth. Those who have more coins or tokens will have a greater impact on the network that those with fewer.
 
-#### Used in
+## Used in
 
 * [Steemit](https://steemit.com/@zanewithspoon)
 * [EOS](https://eos.io)
@@ -17,7 +17,7 @@ With DPoS blockchain consensus protocols, coin holders use their coin balances t
   * [whitepaper](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md#transaction-confirmation)
 * [BitShares](https://bitshares.org)
 
-#### Pros
+## Pros
 
 * Cheap transactions
 * scalable
@@ -31,7 +31,7 @@ With DPoS blockchain consensus protocols, coin holders use their coin balances t
 
 * Partially centralized
 
-#### Read more
+## Read more
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Delegated_proof-of-stake)
 
