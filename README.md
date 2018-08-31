@@ -446,7 +446,7 @@ Ambassadors are chosen each month by users who stake their coins to cast votes. 
 Reputation is assigned to Ambassadors based on several criteria including continual predetermined set of activities like promotion and campaigning of the Bitcoin Origin project.
 
 ## Used in
-* Bitcoin Origin
+* [Bitcoin Origin](https://www.bitcoinorigin.io)
 
 [>> Go to Index <<](#index)
 
