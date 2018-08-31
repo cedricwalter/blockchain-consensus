@@ -6,7 +6,7 @@ Ethereum Proof-of-Authority on Azure allows enterprises to build applications on
 
 * [Ethereum on Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-ethereum?tab=Overview)
 
-[&gt;&gt; Go to Index &lt;&lt;](../../#index)
+[&gt;&gt; Go to Index &lt;&lt;](../#index)
 
 ## Proof of Ambassador \(PoA\)
 
