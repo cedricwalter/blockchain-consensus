@@ -6,11 +6,3 @@ Utilizes a combination of PoW and DAGs to reach scalable consensus. In SPECTRE, 
 
 * Proposal for Bitcoin [https://bitcoin.org/en](https://bitcoin.org/en)
 
-### Proof-of-work \(PoW\) / High Interest Proof of Stake \(HiPoS\)
-
-Coin combining PoW and HiPoS
-
-#### Used in
-
-* EdgeCoin \(EDGE\)
-

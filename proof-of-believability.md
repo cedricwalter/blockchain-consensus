@@ -6,7 +6,7 @@ IOST introduced Servi as both a measurement of users’ contribution to the comm
 
 * IOST
 
-**Read more**
+  **Read more**
 
 * [whitepaper](https://github.com/iost-official/Documents/blob/master/Technical_White_Paper/EN/Tech_white_paper_EN.md#consensus-mechanism)
 
