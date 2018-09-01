@@ -15,7 +15,7 @@ The three main conditions that must be fulfilled for a validator to be establish
 
 * [POA.Network](https://poa.network)
 * [Ethereum Kovan](https://kovan.etherscan.io)
-* [testnetRinkeby](https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc)
+* [testnet Rinkeby](https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc)
 
 ## Pros
 
@@ -24,7 +24,7 @@ The three main conditions that must be fulfilled for a validator to be establish
 * PoA is suited for both private networks and public networks
 * PoA only allows non-consecutive block approval from any one validator, meaning that the risk of serious damage is minimized.
 
-  **Cons**
+## **Cons**
 
 * By identifying validators it is a centralized system
 

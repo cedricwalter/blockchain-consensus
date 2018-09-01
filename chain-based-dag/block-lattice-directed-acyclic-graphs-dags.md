@@ -24,18 +24,22 @@ Nano use Proof of Work \(PoW\) to avoid spammers as there is no transaction fees
 
 ![Visualization of block lattice](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice.png)
 
-#### Used in
+## Used in
 
 * Nano \(first to introduced\) [https://www.mycryptopedia.com/raiblocks-explained/](https://www.mycryptopedia.com/raiblocks-explained/) \(previously Raiblocks [https://raiblocks.net/](https://raiblocks.net/)\)
+  * The Block-lattice is a structure where every user \(address\) gets their own chain that only they can write to, and everyone holds a copy of all of the chains. 
+  * Every transaction is broken down into both a send block on the sender’s chain and a receive block on the receiving party’s chain. 
+  * The Block-lattice seems almost too simple to work, but it’s already out there running in the wild.
+  * The unique structure does leave the Block-lattice open to some unique attack vectors like the Penny-spend attack, where attackers inflate the number of chains node must keep track of by sending negligible amounts to a wide array of empty wallets.
 
-#### Pros
+## Pros
 
 * Less intensive storage requirements by means of database pruning since each user’s blockchain tracks their account balance, rather than their transaction amounts.
 * User’s blockchain can be updated asynchronously to the rest of the block lattice.
 * faster transaction times: the entire network no longer has to process every single transaction that is made. 
 * No transaction fees on the network
 
-#### Cons
+## Cons
 
 * No smart contracts
 * No monetary incentives for running a full node
