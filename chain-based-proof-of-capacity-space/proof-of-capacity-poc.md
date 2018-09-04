@@ -22,6 +22,8 @@ The term plotting is a name for dedicating storage space to be used for calculat
 
 ## Used in
 
+* **SpaceMint** employs a consensus protocol based on a non-interactive variant of proof-ofcapacity \(called proof-of-space\), where participants generate and commit to a unique hard-to-pebble graph.
+* **Permacoin** repurposes Bitcoin’s PoW with a more broadly useful task: providing a robust, distributed storage. In PermaCoin, eligibility for the leader election requires participants to also store segments of a large ﬁle. The ﬁle is distributed by an authoritative ‘dealer’ who signs ﬁle blocks. To provides censorship-resistant ﬁle storage, the ﬁle is fully recoverable from the participants in the event of a dealer failure or shutdown.
 * **Burstcoin**
   * The Burst mining system relies on the existing free space on your hard drive, instead of energy hungry CPUs and GPUs. 
   * Anyone can mine with the same chances since hard disks are easily available at low cost.
@@ -31,11 +33,9 @@ The term plotting is a name for dedicating storage space to be used for calculat
 * Livial energy consumption.
 * Fairer than PoS, since disks are cheap and available = lower barrier entry
 
-\*\*\*\*
-
 ## **Cons**
 
-\*\*\*\*
+## Attacks and Mitigation
 
-\*\*\*\*
+Proof-of-capacity is vulnerable to centralization due to participants outsourcing the ﬁle storage to an external provider. To mitigate this problem, the proofof-retrievability in PermaCoin requires sequential read access to blocks in a pseudorandom order: this directly increases the bandwidth latency in case of outsourced storage, which reduces the miner’s chance of ﬁnding a solution.
 
