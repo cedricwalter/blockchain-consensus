@@ -60,3 +60,7 @@ The maximum rate at which transactions can be agreed upon by the consensus proto
 
 The system’s resilience to proposed transactions being suppressed \(i.e., censored\) by malicious node\(s\) involved in consensus.
 
+###  Zero Knowledge Proofs
+
+ A Zero Knowledge Proof \(ZKP\) is a method by which one party \(the prover\) can prove to another party \(the verifier\) that she knows a value X, without revealing the value itself.
+

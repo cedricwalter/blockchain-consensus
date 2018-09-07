@@ -29,7 +29,7 @@
   * [Proof of capacity \(PoC\)](chain-based-proof-of-capacity-space/proof-of-capacity-poc.md)
   * [Proof-of-Signature \(PoSign\)](chain-based-proof-of-capacity-space/proof-of-signature-posign.md)
   * [Proof of Retrievability \(POR\)](chain-based-proof-of-capacity-space/proof-of-retrievability-por.md)
-  * [Dynamic Proof of Location](chain-based-proof-of-capacity-space/dynamic-proof-of-location.md)
+  * [Proof of Location](chain-based-proof-of-capacity-space/dynamic-proof-of-location.md)
   * [Proof of Reputation \(PoR\)](chain-based-proof-of-capacity-space/proof-of-reputation-por.md)
   * [Proof-of-Proof \(PoP\)](chain-based-proof-of-capacity-space/proof-of-proof-pop.md)
   * [Proof of History](chain-based-proof-of-capacity-space/proof-of-history.md)
