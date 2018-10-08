@@ -1,8 +1,4 @@
----
-description: A FOUNDATION FOR NETWORKS OF TRUST
----
-
-# PROOF OF PROCESS
+# Proof of Process
 
 Proof of Process is a protocol that allows participants to trust a common process by decoupling the proof of data from the actual source data in a way that yields a single proof that represents all steps of the process.
 
