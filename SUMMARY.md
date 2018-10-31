@@ -13,6 +13,7 @@
   * [Proof-of-work time \(PoWT\)](chain-based-proof-of-work/proof-of-work-time-powt.md)
   * [Delayed Proof of Work \(dPoW\)](chain-based-proof-of-work/delayed-proof-of-work-dpow.md)
 * [Chain-based Proof of Stake](chain-based-proof-of-stake/README.md)
+  * [Hybrid PBFT/Aurand](chain-based-proof-of-stake/hybrid-pbft-aurand.md)
   * [Proof of stake \(PoS\)](chain-based-proof-of-stake/proof-of-stake-pos.md)
   * [Delegated proof-of-stake \(DPoS\)](chain-based-proof-of-stake/delegated-proof-of-stake-dpos.md)
   * [Proof-of-Stake-Time \(PoST\)](chain-based-proof-of-stake/proof-of-stake-time-post.md)
