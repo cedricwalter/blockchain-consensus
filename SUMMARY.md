@@ -7,6 +7,7 @@
 * [Glossary](glossary.md)
 * [Categorizing consensus](categorizing-consensus.md)
 * [Chain-based Proof of Work](chain-based-proof-of-work/README.md)
+  * [Proof of Edit Distance](chain-based-proof-of-work/proof-of-distance.md)
   * [Proof of Work \(PoW\)](chain-based-proof-of-work/proof-of-work-pow-1.md)
   * [Proof of Meaningful Work \(PoMW\)](chain-based-proof-of-work/proof-of-meaningful-work-pomw.md)
   * [Hybrid Proof of Work \(HPoW\)](chain-based-proof-of-work/hybrid-proof-of-work-hpow.md)

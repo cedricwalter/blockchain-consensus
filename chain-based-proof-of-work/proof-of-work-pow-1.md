@@ -37,6 +37,7 @@ In cryptocurrency networks, “miners” are special nodes that perform the PoW 
 * PoW uses an enormous amount of computing power, which, in itself lowers incentive
 * It is also vulnerable to attack, as a potential attacker would only need to have 51% of the mining resources \(hashrate\) to control a network, although this is not easy to do.
 * Reducing block rewards
+* Proof of Work restricts the inputs to the structure of given blockchains mining algorithm. In Bitcoin’s case this would have to be a nonce, and in Ethereum’s case the input must be a random integer, a nonce, and a seed hash of the block.
 
 **Read more**
 
