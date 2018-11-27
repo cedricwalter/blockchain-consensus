@@ -34,7 +34,7 @@ Any hash or string structure can be provided as an input which means that as lon
 
 ## Used in 
 
-Block Collider use a “hybrid proof of work proof of edit distance” in that it is computationally difficult to find the above solution and computationally insignificant to prove. However, “Proof of Edit Distance” is more accurate.
+* [Block Collider](https://www.blockcollider.org/)
 
 ## Links
 
