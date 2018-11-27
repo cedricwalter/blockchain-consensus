@@ -1,5 +1,5 @@
 ---
-description: Novel consensus used in Block Collider
+description: could be also considered as hybrid proof of work proof of edit distance
 ---
 
 # Proof of Edit Distance
@@ -30,11 +30,14 @@ Any hash or string structure can be provided as an input which means that as lon
 
 ## Cons
 
+
+
 ## Used in 
 
-Block collider use a “hybrid proof of work proof of edit distance” in that it is computationally difficult to find the above solution and computationally insignificant to prove. However, “Proof of Edit Distance” is more accurate.
+Block Collider use a “hybrid proof of work proof of edit distance” in that it is computationally difficult to find the above solution and computationally insignificant to prove. However, “Proof of Edit Distance” is more accurate.
 
 ## Links
 
-[Medium](https://blog.blockcollider.org/building-a-blockchain-singularity-with-proof-of-edit-distance-1d60c328de7a)
+* [Block collider whitepaper](https://s3.amazonaws.com/blockcollider/blockcollider_wp.pdf)
+* [Medium](https://blog.blockcollider.org/building-a-blockchain-singularity-with-proof-of-edit-distance-1d60c328de7a)
 
