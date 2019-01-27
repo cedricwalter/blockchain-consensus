@@ -1,8 +1,11 @@
----
-description: 'no overall, global "correctness" (or consensus) built in to Holochain'
----
-
 # Holochain
+
+> Holochain is a framework for building fully decentralized, peer-to-peer apps. In its architecture, Holochain leans away from the severely limiting and often destructive consensus-based and data-centric practices made popular by blockchain technologies. Holochain is unique in that it utilizes DHTs for collective data storage and proliferation while maintaining agent-centric data integrity via personal hash chains held by each node.
+
+> * Holochain is not a blockchain. On a blockchain, every node on a network maintains the same state of the entire network. On Holochain, each node maintains its own history in a personal, cryptographically tamper-proof chain.
+> * DHTs \(Distributed Hash Tables\) are implemented on Holochain to create shared public space. Each node carries some of the shared data so that if a node goes offline, its data isn't lost to the community. This is configurable for each app's use-case.
+> * Distributed validation built in to Holochain means that every user of an app agrees to that app's validation rules. If these rules are broken, other nodes can tell how and by whom, and then react accordingly.
+> * Each Holochain app is its own network.
 
 There is no overall, global "correctness" \(or consensus\) built in to Holochain. Instead, each node that receives a record of a transaction validates it against the shared application rules and gossips it to their peers. If the rules are broken, that transaction is rejected by the validator. If foul play is detected on a node's part \(the node is either propagating or validating bad data\) that node is blocked and a warning is sent to others. 
 

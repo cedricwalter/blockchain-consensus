@@ -1,10 +1,3 @@
----
-description: >-
-  This is my attempt to list all possible blockchain consensus out there! I
-  welcome pull request of the blockchain community! lets make it the main
-  reference for blockchain consensus.
----
-
 # Introduction
 
 ![Consensus by Nick Youngson CC BY-SA 3.0 ImageCreator](.gitbook/assets/consensus.jpg)

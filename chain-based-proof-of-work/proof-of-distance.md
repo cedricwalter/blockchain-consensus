@@ -1,7 +1,3 @@
----
-description: could be also considered as hybrid proof of work proof of edit distance
----
-
 # Proof of Edit Distance
 
 ## Algorithm

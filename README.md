@@ -13,5 +13,3 @@ Visit the book at [https://tokens-economy.gitbook.io/consensus/](https://tokens-
 * Ethereum [0xC23473B911e86dc614412b3341d1C206aBac6996](https://etherscan.io/address/0xC23473B911e86dc614412b3341d1C206aBac6996#)
 * Bitcoin [3ERPPUFLLjmRAookiCTN7rqKkQjDwS8YPe](https://www.blocktrail.com/BTC/address/3ERPPUFLLjmRAookiCTN7rqKkQjDwS8YPe)
 
-
-
