@@ -2,7 +2,7 @@
 
 ## Blockchain Consensus Encyclopedia
 
-### More than 68 Blockchain Consensus described.
+### More than 69 Blockchain Consensus described.
 
 ![Consensus by Nick Youngson CC BY-SA 3.0 ImageCreator](.gitbook/assets/consensus.jpg)
 
