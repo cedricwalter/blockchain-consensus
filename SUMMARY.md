@@ -87,4 +87,5 @@
 * [Magi's proof-of-work \(mPoW\)](magis-proof-of-work-mpow.md)
 * [Common Attacks](common-attacks.md)
 * [ThresholdRelay](thresholdrelay.md)
+* [Holochain](holochain.md)
 
