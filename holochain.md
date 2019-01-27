@@ -43,7 +43,8 @@ From [https://developer.holochain.org/guide/latest/faq.html\#what-is-holochains-
 
 ### Links
 
-This page compares Holochain to various other decentralized data protocols and systems.  [https://github.com/Holochain/holochain-proto/wiki/Comparisons](https://github.com/Holochain/holochain-proto/wiki/Comparisons)
+* [https://holo.host/faq/how-does-holochain-manage-consensus-data-integrity/](https://holo.host/faq/how-does-holochain-manage-consensus-data-integrity/)
+* This page compares Holochain to various other decentralized data protocols and systems.  [https://github.com/Holochain/holochain-proto/wiki/Comparisons](https://github.com/Holochain/holochain-proto/wiki/Comparisons)
 
 
 
