@@ -4,7 +4,7 @@ description: >-
   Foreseen in “Ethereum 3.0”
 ---
 
-# correct-by-construction \(CBC\) Casper
+# Correct By Construction \(CBC\) Casper
 
 
 

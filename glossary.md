@@ -52,6 +52,10 @@ Anyone can join the system and participate in the consensus protocol.
 
 The system’s ability to achieve greater throughput when consensus involves a larger number of nodes. 
 
+### Sharding
+
+Sharding aims to split \(shard\) state information across nodes, without requiring any node to have a full picture of the network. Therefore no validator will validate all shards.
+
 ### Throughput
 
 The maximum rate at which transactions can be agreed upon by the consensus protocol \(transactions per second/hour\). 

@@ -25,3 +25,7 @@ description: >-
 * Casper the Friendly Finality Gadget \(FFG\), hybrid PoW/PoS that will be implmented first and ease transtion to full PoS. blocks are mined using POW, every 50th block a POS checkpoint where finality is assessed by a network of validators will be used.  Read [Vitalik’s note on hybrid PoW/FFG](https://vitalik.ca/files/casper_note.html), his [medium post on minimal slashing conditions](https://medium.com/@VitalikButerin/minimal-slashing-conditions-20f0b500fc6c) and the [FFG paper](https://arxiv.org/abs/1710.09437).
 * Casper the Friendly GHOST: Correct-by-Construction \(CBC\): full PoS
 
+### Resources
+
+* [https://hackernoon.com/what-to-expect-when-eths-expecting-80cb4951afcd](https://hackernoon.com/what-to-expect-when-eths-expecting-80cb4951afcd)
+
