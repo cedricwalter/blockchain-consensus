@@ -1,4 +1,11 @@
-# Proof of stake Casper \(PoS Casper\)
+---
+description: >-
+  Friendly Finality Gadget (FFG), hybrid PoW/PoS. FFG is a Proof of Stake
+  algorithm implementing stake slashing for bad behavior like chain halts and
+  censorship. Foreseen for Ethereum 2.0
+---
+
+# Casper the Friendly Finality Gadget \(FFG\)
 
 ## Algorithm
 
@@ -15,6 +22,6 @@
 
 ## Used in
 
-* Casper the Friendly Finality Gadget \(FFG\), hybrid PoW/PoS that will be implmented first and ease transtion to full PoS. blocks are mined using POW, every 50th block a POS checkpoint where finality is assessed by a network of validators will be used.
+* Casper the Friendly Finality Gadget \(FFG\), hybrid PoW/PoS that will be implmented first and ease transtion to full PoS. blocks are mined using POW, every 50th block a POS checkpoint where finality is assessed by a network of validators will be used.  Read [Vitalik’s note on hybrid PoW/FFG](https://vitalik.ca/files/casper_note.html), his [medium post on minimal slashing conditions](https://medium.com/@VitalikButerin/minimal-slashing-conditions-20f0b500fc6c) and the [FFG paper](https://arxiv.org/abs/1710.09437).
 * Casper the Friendly GHOST: Correct-by-Construction \(CBC\): full PoS
 
