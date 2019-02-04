@@ -76,7 +76,7 @@
   * [Delegated Byzantine Fault Tolerance](chain-based-pbft-and-bft-based-proof-of-stake/delegated-byzantine-fault-tolerance.md)
   * [Byzantine Fault Tolerance \(BFT\)](chain-based-pbft-and-bft-based-proof-of-stake/byzantine-fault-tolerance-bft.md)
   * [Ouroboros](chain-based-pbft-and-bft-based-proof-of-stake/ouroboros.md)
-  * [HoneyBadgerBFT](chain-based-pbft-and-bft-based-proof-of-stake/honeybadgerbft.md)
+  * [asynchronous BFT protocol](chain-based-pbft-and-bft-based-proof-of-stake/honeybadgerbft.md)
   * [Modified Federated Byzantine Agreement \(mFBA\)](chain-based-pbft-and-bft-based-proof-of-stake/untitled.md)
 * [Chain-based others](chain-based-others/README.md)
   * [Avalanche](chain-based-others/avalanche.md)
