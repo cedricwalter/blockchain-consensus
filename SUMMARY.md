@@ -1,6 +1,7 @@
 # Table of contents
 
 * [README](README.md)
+* [Blockchain Consensus Encyclopedia Infographic](blockchain-consensus-encyclopedia-infographic.md)
 * [CONTRIBUTING](contributing.md)
 * [Introduction](proof-of-work-pow.md)
 * [Blockchain Consensus?](blockchain-consensus.md)

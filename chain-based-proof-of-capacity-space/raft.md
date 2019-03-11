@@ -7,5 +7,5 @@ You can see how Raft work by visiting this [guided and less interactive visualiz
 ## Used in
 
 * IPFS Private Cluster
-* Quorum
+* Quorum see [https://github.com/jpmorganchase/quorum/blob/master/docs/raft.md](https://github.com/jpmorganchase/quorum/blob/master/docs/raft.md)
 
