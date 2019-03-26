@@ -1,8 +1,10 @@
 ---
-description: DAG with Sharding
+description: a DAG with Sharding consensus
 ---
 
 # BlockFlow
+
+A novel sharding algorithm that supports cross-shard transactions natively without using locks or other synchronization mechanisms.
 
 ### Used In
 
