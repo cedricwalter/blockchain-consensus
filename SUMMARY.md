@@ -84,6 +84,7 @@
   * [Serialization of Proof-of-work Events \(Spectre\)](chain-based-others/serialization-of-proof-of-work-events-confirming-transactions-via-recursive-elections.md)
   * [Scrypt-adaptive-N \(ASIC resistant\)](chain-based-others/scrypt-adaptive-n-asic-resistant.md)
 * [Chain-based DAG](chain-based-dag/README.md)
+  * [BlockFlow](chain-based-dag/blockflow.md)
   * [Direct Acyclic Graph Tangle \(DAG\)](chain-based-dag/direct-acyclic-graph-tangle-dag.md)
   * [Hashgraph](chain-based-dag/hashgraph.md)
   * [Block-lattice - Directed Acyclic Graphs \(DAGs\)](chain-based-dag/block-lattice-directed-acyclic-graphs-dags.md)
