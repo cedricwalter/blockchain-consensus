@@ -12,3 +12,11 @@ To add new content:
 
 Please stay on topic!
 
+You can open PR on Github [https://github.com/cedricwalter/blockchain-consensus](https://github.com/cedricwalter/blockchain-consensus) 
+
+### Contact
+
+You can contact me using Twitter [@CedricWalter](https://twitter.com/CedricWalter?lang=en) or [@TokensEconomy](https://twitter.com/tokenseconomy) 
+
+
+
