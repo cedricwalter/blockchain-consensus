@@ -13,6 +13,8 @@ description: >-
 >
 > BFTree arranges validators into a virtual tree, to parallelize signature aggregation between non-byzantine nodes working to achieve consensus. When byzantine nodes interfere with the aggregation, the roots of all subtrees that were able to achieve agreement perform BFT consensus to finish the round, frequently with fewer messages than if all validators participated. By thoughtfully reorganizing the tree such that nodes that have historically been reliable are paired with other reliable nodes, BFTree limits the impact that a byzantine node can have. Source: [https://medium.com/celohq/bftree-scaling-hotstuff-to-millions-of-validators-7d6930ee046a](https://medium.com/celohq/bftree-scaling-hotstuff-to-millions-of-validators-7d6930ee046a)
 
+![A step by step example of how BFTree achieves consensus in the presence of faulty validators.](../.gitbook/assets/celo-bftree.png)
+
 ### Whitepaper
 
 * [CELO Whitepaper](https://storage.googleapis.com/celo_whitepapers/BFTree%20-%20Scaling%20HotStuff%20to%20Millions%20of%20Validators.pdf)
