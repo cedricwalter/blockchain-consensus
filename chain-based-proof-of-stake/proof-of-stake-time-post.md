@@ -1,4 +1,4 @@
-# Proof-of-Stake-Time \(PoST\)
+# Proof of Stake Time \(PoST\)
 
 A time-accepted periodic proof factor in a nonlinear distributed consensus. Stake-Time as “The coin-age of a transaction or set of transactions in which the Stake-Time is the product of the total coins \(C\) and the fraction \(f\) of acceptable age\(a\)
 

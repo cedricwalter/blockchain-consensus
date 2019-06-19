@@ -1,4 +1,4 @@
-# Proof of stake \(PoS\)
+# Proof of Stake \(PoS\)
 
 The proof-of-stake \(PoS\) mechanism works using an algorithm that selects participants with the highest stakes as validators, assuming that the highest stakeholders are incentivized to ensure a transaction is processed. The idea is that those with the most coins in circulation have the most to lose so they are positioned to work in the interest of the network. The amount of coins that a network may require changes just like the difficulty in PoW.
 

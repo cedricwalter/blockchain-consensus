@@ -1,4 +1,4 @@
-# Proof-of-Elapsed-Time \(PoET\)
+# Proof of Elapsed-Time \(PoET\)
 
 PoET is a consensus mechanism algorithm that is often used on the permissioned blockchain networks to decide the mining rights or the block winners on the network. Permissioned blockchain networks are those which require any prospective participant to identify themselves before they are allowed to join. Based on the principle of a fair lottery system where every single node is equally likely to be a winner, the PoET mechanism is based on spreading the chances of a winning fairly across the largest possible number of network participants.
 

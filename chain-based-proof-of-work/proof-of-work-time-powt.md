@@ -1,4 +1,4 @@
-# Proof-of-work time \(PoWT\)
+# Proof of Work time \(PoWT\)
 
 Proof-of-Work-Time \(PoWT\) is a novel approach to forming a consensus by introducing a variable blocktime that scales with mining power, where the blockchain speeds up with power increases. This better scales the blockchain, increases transaction speed with power and allows for auto-adjusting more profitable mining. Difficulty dependent blocktime \(Max ~6.2 minutes, minimum 15 seconds\).
 

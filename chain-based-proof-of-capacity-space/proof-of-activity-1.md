@@ -1,4 +1,4 @@
-# Proof Of Activity
+# Proof of Activity
 
 Combine Proof of Work component with a Proof of Stake.
 

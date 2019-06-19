@@ -1,4 +1,4 @@
-# Leased Proof-of-Stake \(LPoS\)
+# Leased Proof of Stake \(LPoS\)
 
 Your chances to find a new block only depend on how many Token you have \( i.e. your stake\).
 

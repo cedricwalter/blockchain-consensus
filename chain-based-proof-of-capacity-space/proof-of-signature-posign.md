@@ -1,4 +1,4 @@
-# Proof-of-Signature \(PoSign\)
+# Proof of Signature \(PoSign\)
 
 PROOF-OF-SIGNATURE is a new consensus method \(developed by Borzalom\) that utilizes a network of registered STATIC nodes. STATIC nodes must be registered and active in order to participate in consensus. STATIC node registration status is verified using Proof-of-Signature, as all node are registered and known
 

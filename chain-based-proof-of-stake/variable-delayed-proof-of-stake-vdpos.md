@@ -1,4 +1,4 @@
-# Variable Delayed Proof Of Stake \(vDPOS\)
+# Variable Delayed Proof of Stake \(vDPOS\)
 
 Ongoing, but you can help me with links, contact me
 

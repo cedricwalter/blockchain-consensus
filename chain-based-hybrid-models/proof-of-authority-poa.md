@@ -1,4 +1,4 @@
-# Proof-of-authority \(PoA\)
+# Proof of authority \(PoA\)
 
 In PoA-based networks, transactions and blocks are validated by approved accounts, known as validators. alidators run software allowing them to put transactions in blocks. The process is automated and does not require validators to be constantly monitoring their computers. It, however, does require maintaining the computer \(the authority node\) uncompromised. With PoA individuals earn the right to become validators, so there is an incentive to retain the position that they have gained. By attaching a reputation to identity, validators are incentivized to uphold the transaction process, as they do not wish to have their identities attached to a negative reputation.
 
