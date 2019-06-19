@@ -72,6 +72,7 @@
 * [Chain-based Trusted computing algorithms](chain-based-trusted-computing-algorithms/README.md)
   * [Proof-of-Elapsed-Time \(PoET\)](chain-based-trusted-computing-algorithms/poet.md)
 * [Chain-based PBFT and BFT-based Proof of Stake](chain-based-pbft-and-bft-based-proof-of-stake/README.md)
+  * [LibraBFT](chain-based-pbft-and-bft-based-proof-of-stake/librabft.md)
   * [Albatross](chain-based-pbft-and-bft-based-proof-of-stake/albatross.md)
   * [Practical Byzantine Fault Tolerance](chain-based-pbft-and-bft-based-proof-of-stake/practical-byzantine-fault-tolerance.md)
   * [Federated Byzantine Agreement](chain-based-pbft-and-bft-based-proof-of-stake/federated-byzantine-agreement.md)
