@@ -1,6 +1,13 @@
+---
+description: >-
+  LibraBFT is based on HotStuff, a recent protocol that leverages several
+  decades of scientific advances in Byzantine fault tolerance (BFT) and achieves
+  the strong scalability and security properties.
+---
+
 # LibraBFT
 
-
+![Libra logo](../.gitbook/assets/libra-bft.png)
 
 ### Algorithm
 
@@ -21,13 +28,19 @@
 
 ### Cons
 
-* You have to trust validators
+* You have to trust validators. 
+* POS have to show that is still working when transitioning to permission-less network
 
 ### Used In
 
-* LibraBFT is a variant of the HotStuff consensus protocol.
+* LibraBFT which is a variant of the HotStuff consensus protocol.
 
 ### Whitepaper
 
+* [https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain.pdf](https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain.pdf)
 * [https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf](https://developers.libra.org/docs/assets/papers/the-libra-blockchain.pdf)
+
+### Read More
+
+* [https://medium.com/@lopp/thoughts-on-libra-blockchain-49b8f6c26372](https://medium.com/@lopp/thoughts-on-libra-blockchain-49b8f6c26372)
 
