@@ -1,4 +1,4 @@
-# Proof-of-space \(PoC\)
+# Proof of Space \(PoC\)
 
 \(PoSpace\), also called proof-of-capacity \(PoC\) is a means of showing that one has a legitimate interest in a service \(such as sending an email\) by allocating a non-trivial amount of memory or disk space to solve a challenge presented by the service provider.
 
