@@ -16,3 +16,7 @@ GRANDPA \(GHOST-based Recursive ANcestor Deriving Prefix Agreement\), also previ
 
 * The formal specification is published at [https://github.com/w3f/consensus/blob/master/pdf/grandpa.pdf](https://github.com/w3f/consensus/blob/master/pdf/grandpa.pdf)
 
+### Resources
+
+The first implementation is underway in Rust at [https://github.com/paritytech/finality-afg](https://github.com/paritytech/finality-afg)
+
