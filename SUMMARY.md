@@ -56,6 +56,7 @@
   * [Proof of Quality \(PoQ\)](chain-based-proof-of-capacity-space/proof-of-quality-poq.md)
   * [Proof of Space \(PoC\)](chain-based-proof-of-capacity-space/proof-of-space-poc.md)
 * [Chain-based Hybrid models](chain-based-hybrid-models/README.md)
+  * [GRANDPA](chain-based-hybrid-models/grandpa.md)
   * [Proof of authority \(PoA\)](chain-based-hybrid-models/proof-of-authority-poa.md)
   * [Ethereum Proof of Authority](chain-based-hybrid-models/ethereum-proof-of-authority.md)
   * [Limited Confidence Proof-of-Activity \(LCPoA\)](chain-based-hybrid-models/limited-confidence-proof-of-activity-lcpoa.md)
