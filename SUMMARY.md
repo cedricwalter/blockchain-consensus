@@ -84,6 +84,7 @@
   * [Modified Federated Byzantine Agreement \(mFBA\)](chain-based-pbft-and-bft-based-proof-of-stake/untitled.md)
   * [Ouroboros](chain-based-pbft-and-bft-based-proof-of-stake/ouroboros.md)
   * [Practical Byzantine Fault Tolerance](chain-based-pbft-and-bft-based-proof-of-stake/practical-byzantine-fault-tolerance.md)
+* [Snowglobe](snowglobe.md)
 * [Chain-based others](chain-based-others/README.md)
   * [Avalanche](chain-based-others/avalanche.md)
   * [Serialization of Proof-of-work Events \(Spectre\)](chain-based-others/serialization-of-proof-of-work-events-confirming-transactions-via-recursive-elections.md)
