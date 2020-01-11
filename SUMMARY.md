@@ -17,6 +17,7 @@
   * [ePoW: equitable chance and energy-saving.](chain-based-proof-of-work/epow-equitable-chance-and-energy-saving..md)
   * [Semi-Synchronous Proof of Work \(SSPoW\)](chain-based-proof-of-work/semi-synchronous-proof-of-work-sspow.md)
 * [Chain-based Proof of Stake](chain-based-proof-of-stake/README.md)
+  * [Secure Proof of Stake \(SPoS\)](chain-based-proof-of-stake/secure-proof-of-stake-spos.md)
   * [Hybrid PBFT/Aurand](chain-based-proof-of-stake/hybrid-pbft-aurand.md)
   * [Proof of Stake \(PoS\)](chain-based-proof-of-stake/proof-of-stake-pos.md)
   * [Delegated Proof of Stake \(DPoS\)](chain-based-proof-of-stake/delegated-proof-of-stake-dpos.md)
