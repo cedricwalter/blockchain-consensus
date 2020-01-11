@@ -6,7 +6,7 @@
 
 ![Consensus by Nick Youngson CC BY-SA 3.0 ImageCreator](.gitbook/assets/consensus.jpg)
 
-By [https://www.tokens-economy.com](https://www.tokens-economy.com)
+By [https://www.tokens-economy.com](https://www.tokens-economy.com) and [https://disruptr.ch/](https://disruptr.ch/)
 
 Visit the book at [https://tokens-economy.gitbook.io/consensus/](https://tokens-economy.gitbook.io/consensus/)
 
