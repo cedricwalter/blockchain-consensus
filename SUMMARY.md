@@ -31,6 +31,7 @@
   * [Proof of Stake Velocity](chain-based-proof-of-stake/proof-of-stake-velocity.md)
   * [Magi's Proof of Stake \(mPoS\)](chain-based-proof-of-stake/magis-proof-of-stake-mpos.md)
   * [Leased Proof of Stake \(LPoS\)](chain-based-proof-of-stake/leased-proof-of-stake-lpos.md)
+  * [Delegated Proof of Importance \(DPoI\)](chain-based-proof-of-stake/delegated-proof-of-importance-dpoi.md)
   * [Leasing Proof of Stake \(PoS/LPoS\)](chain-based-proof-of-stake/leasing-proof-of-stake-pos-lpos.md)
 * [Chain-based Proof of Capacity/Space](chain-based-proof-of-capacity-space/README.md)
   * [Proof of Process](chain-based-proof-of-capacity-space/proof-of-process.md)
