@@ -86,7 +86,7 @@
   * [Practical Byzantine Fault Tolerance](chain-based-pbft-and-bft-based-proof-of-stake/practical-byzantine-fault-tolerance.md)
 * [Chain-based others](chain-based-others/README.md)
   * [Proof of Trust \(PoT\)](chain-based-others/proof-of-trust-pot.md)
-  * [Proof of Devotion](chain-based-others/proof-of-devotion.md)
+  * [Proof of Devotion](proof-of-devotion.md)
   * [Snowglobe](chain-based-others/snowglobe.md)
   * [Avalanche](chain-based-others/avalanche.md)
   * [Serialization of Proof-of-work Events \(Spectre\)](chain-based-others/serialization-of-proof-of-work-events-confirming-transactions-via-recursive-elections.md)
