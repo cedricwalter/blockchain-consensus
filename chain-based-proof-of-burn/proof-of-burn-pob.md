@@ -27,4 +27,5 @@ With proof of burn, instead of pouring money into expensive computer equipment, 
 
 * [HackerNoon](https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f)
 * [bitcointalk.org](https://bitcointalk.org/index.php?topic=704213.0)
+* \*\*\*\*[**2 BTC BURNED IN 2018**](https://bitcoinwhoswho.com/blog/2018/12/29/2-btc-burned-in-2018/)\*\*\*\*
 
