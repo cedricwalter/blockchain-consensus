@@ -25,6 +25,7 @@
   * [Proof of Stake Time \(PoST\)](chain-based-proof-of-stake/proof-of-stake-time-post.md)
   * [Proof of stake Boo \(PoS Boo\)](chain-based-proof-of-stake/proof-of-stake-boo-pos-boo.md)
   * [High Interest Proof of Stake \(HiPoS\)](chain-based-proof-of-stake/high-interest-proof-of-stake-hipos.md)
+  * [Asset PoS  \(APoS \)](chain-based-proof-of-stake/asset-pos-apos.md)
   * [Traditional Proof of Stake / Tiered Proof Of Stake \(TPOS\)](chain-based-proof-of-stake/traditional-proof-of-stake-tiered-proof-of-stake-tpos.md)
   * [Casper the Friendly Finality Gadget \(FFG\)](chain-based-proof-of-stake/proof-of-stake-casper-pos-casper.md)
   * [Correct By Construction \(CBC\) Casper](chain-based-proof-of-stake/correct-by-construction-cbc-casper.md)
