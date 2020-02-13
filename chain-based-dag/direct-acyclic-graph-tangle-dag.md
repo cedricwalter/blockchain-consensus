@@ -10,17 +10,19 @@ This is directed, asynchronous graph \(DAG\) representing each individual transa
 
 * IOTA
 
-  **Pros**
+**Pros**
 
-* Low transaction fees \(PoW on 2 other Tx\)
+* Low transaction fees \(PoW on 2 other Tx\), fee-less payments
 * Extremely small transactions
+* Encrypted transaction payload
 * Scalability
 * Lightweight
+* Public/private message chains
 * Quantum-secure \(Use trinary, or balanced ternary computations instead of the standard binary computations performed by classical computers\)
 
 #### Cons
 
-* No Smart Contracts yet
+* No Smart Contracts yet but ability [to bridge to Hyperledger fabric](https://blog.iota.org/integrate-hyperledger-fabric-with-the-iota-tangle-9bc3ac873e82) .see [github code example](https://github.com/iotaledger/HyperledgerFabric-IOTA-Connector)
 * Vulnerable \(only 34% of the total hashing power required\)
 
 #### Read more
