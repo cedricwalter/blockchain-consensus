@@ -2,11 +2,14 @@
 
 The Block-lattice is a structure where every user \(address\) gets their own chain that only they can write to, and everyone holds a copy of all of the chains. Block-lattice transform a shared global ledger\(like in Bitcoin\) into a set of non-shared asynchronous ledgers, which speed up transactions time.
 
-![block-lattice1.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice1.png) Blockchain consists of ordered units called blocks . Blocks contain headers and transactions. Each block header, amongst other metadata, contains a reference to its predecessor in the form of the predecessor's hash. The initial state is hard-coded in the first block called the genesis block. Unlike other blocks, the genesis block has no predecessor.
+![block-lattice1.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice1.png) *Figure 1*
+Blockchain consists of ordered units called blocks . Blocks contain headers and transactions. Each block header, amongst other metadata, contains a reference to its predecessor in the form of the predecessor's hash. The initial state is hard-coded in the first block called the genesis block. Unlike other blocks, the genesis block has no predecessor.
 
-![block-lattice2.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice2.png) In contrast to blocks, a DAG structure stores transactions in nodes, where each node holds a single transaction. In Nano, every account is linked to its own account-chain in a structure called the block-lattice equivalent to the account's transaction/balance history. The structure of the block-lattice is displayed in Figure 2. Each account is granted an account chain. An account chain can be considered as a dedicated blockchain, just for a single account. Nodes are appended to an account-chain, each node representing a single transaction on the account chain. Similar to the genesis block in blockchain, a DAG holds a genesis transaction. The genesis transaction defines the initial state. In Nano, instead of having a single transaction that transfers value, two transactions are needed to fully execute a transfer of value. A sender generates a send transaction, while a receiver generates a matching receive transaction, as depicted in Figure 3. When a send transaction is issued, funds are deducted from the balance of the sender's account, and are pending in the network awaiting for the recipient to generate the corresponding receive transaction. While in this state, transactions are deemed unsettled. When the receive transac- tion is generated, the transaction is settled. The downside of this approach is that a node has to be online in order to receive a transaction.
+![block-lattice2.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice2.png) *Figure 2*
+In contrast to blocks, a DAG structure stores transactions in nodes, where each node holds a single transaction. In Nano, every account is linked to its own account-chain in a structure called the block-lattice equivalent to the account's transaction/balance history. The structure of the block-lattice is displayed in Figure 2. Each account is granted an account chain. An account chain can be considered as a dedicated blockchain, just for a single account. Nodes are appended to an account-chain, each node representing a single transaction on the account chain. Similar to the genesis block in blockchain, a DAG holds a genesis transaction. The genesis transaction defines the initial state. In Nano, instead of having a single transaction that transfers value, two transactions are needed to fully execute a transfer of value. A sender generates a send transaction, while a receiver generates a matching receive transaction, as depicted in Figure 3. When a send transaction is issued, funds are deducted from the balance of the sender's account, and are pending in the network awaiting for the recipient to generate the corresponding receive transaction. While in this state, transactions are deemed unsettled. When the receive transac- tion is generated, the transaction is settled. The downside of this approach is that a node has to be online in order to receive a transaction.
 
-![block-lattice3.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice3.png) Transaction handling in the block lattice. S represents a send transaction, R represents a receive transaction.
+![block-lattice3.png](https://raw.githubusercontent.com/cedricwalter/blockchain-consensus/master/images/block-lattice3.png) *Figure 3*
+Transaction handling in the block lattice. S represents a send transaction, R represents a receive transaction.
 
 Every transaction is broken down into both a **send block** on the sender’s chain and a **receive block** on the receiving party’s chain. A send transaction will deduct funds from a sender’s balance, whilst a receive transaction will add funds to a receiving account’s balance. If the account owner misbehaves, then the rest of the network will vote against the invalid block and it will be rejected.
 
@@ -26,11 +29,8 @@ Nano use Proof of Work \(PoW\) to avoid spammers as there is no transaction fees
 
 ## Used in
 
-* Nano \(first to introduced\) [https://www.mycryptopedia.com/raiblocks-explained/](https://www.mycryptopedia.com/raiblocks-explained/) \(previously Raiblocks [https://raiblocks.net/](https://raiblocks.net/)\)
-  * The Block-lattice is a structure where every user \(address\) gets their own chain that only they can write to, and everyone holds a copy of all of the chains. 
-  * Every transaction is broken down into both a send block on the sender’s chain and a receive block on the receiving party’s chain. 
-  * The Block-lattice seems almost too simple to work, but it’s already out there running in the wild.
-  * The unique structure does leave the Block-lattice open to some unique attack vectors like the Penny-spend attack, where attackers inflate the number of chains node must keep track of by sending negligible amounts to a wide array of empty wallets.
+* Nano \(first to introduce\) [https://nano.org/](https://nano.org/) \(previously Raiblocks [https://raiblocks.net/](https://raiblocks.net/)\)
+* Banano \(A fork of Nano\) [https://banano.cc/](https://banano.cc/)
 
 ## Pros
 
@@ -38,12 +38,18 @@ Nano use Proof of Work \(PoW\) to avoid spammers as there is no transaction fees
 * User’s blockchain can be updated asynchronously to the rest of the block lattice.
 * faster transaction times: the entire network no longer has to process every single transaction that is made. 
 * No transaction fees on the network
+* Nano is a deflationary currency \(a currency that constantly increases in value\)
 
 ## Cons
 
 * No smart contracts
 * No monetary incentives for running a full node
-* Nano is a deflationary currency \(a currency that constantly increases in value\)
+
+## In Summary
+* The Block-lattice is a structure where every user \(address\) gets their own chain that only they can write to, and everyone holds a copy of all of the chains. 
+  * Every transaction is broken down into both a send block on the sender’s chain and a receive block on the receiving party’s chain. 
+  * The Block-lattice seems almost too simple to work, but it’s already out there running in the wild.
+  * The unique structure does leave the Block-lattice open to some unique attack vectors like the Penny-spend attack, where attackers inflate the number of chains node must keep track of by sending negligible amounts to a wide array of empty wallets.
 
 #### Read more
 

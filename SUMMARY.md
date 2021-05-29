@@ -77,6 +77,7 @@
 * [Chain-based Trusted computing algorithms](chain-based-trusted-computing-algorithms/README.md)
   * [Proof of Elapsed Time \(PoET\)](chain-based-trusted-computing-algorithms/poet.md)
 * [Chain-based PBFT and BFT-based Proof of Stake](chain-based-pbft-and-bft-based-proof-of-stake/README.md)
+  * [leaderless BFT dual ledger architecture](chain-based-pbft-and-bft-based-proof-of-stake/leaderless-bft-dual-ledger-architecture.md)
   * [Albatross](chain-based-pbft-and-bft-based-proof-of-stake/albatross.md)
   * [asynchronous BFT protocol](chain-based-pbft-and-bft-based-proof-of-stake/honeybadgerbft.md)
   * [BFTree](chain-based-pbft-and-bft-based-proof-of-stake/bftree.md)
@@ -102,6 +103,7 @@
   * [Block-lattice - Directed Acyclic Graphs \(DAGs\)](chain-based-dag/block-lattice-directed-acyclic-graphs-dags.md)
 * [Magi's proof-of-work \(mPoW\)](magis-proof-of-work-mpow.md)
 * [Common Attacks](common-attacks.md)
+* [Performance indicators](performance-indicators.md)
 * [ThresholdRelay](thresholdrelay.md)
 * [Holochain](holochain.md)
 
