@@ -8,7 +8,7 @@ A novel sharding algorithm that supports cross-shard transactions natively witho
 
 ### Used In
 
-{% embed url="http://www.alephium.org/" %}
+* http://www.alephium.org/
 
 [https://github.com/alephium/white-paper](https://github.com/alephium/white-paper)
 
