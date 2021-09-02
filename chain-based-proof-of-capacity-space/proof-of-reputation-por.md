@@ -20,7 +20,7 @@ The consensus protocol ensures fairness and liveness by incentivizing the assign
 ## Cons
 
 * Only for private, permissioned blockchains.
-* Subject to 51% attack like PoW, but more unlikely that spo many entities in the network colludes.
+* Subject to 51% attack like PoW, but more unlikely that so many entities in the network colludes.
 
 ## Used by
 
